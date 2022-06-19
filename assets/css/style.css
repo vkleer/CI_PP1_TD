@@ -80,15 +80,14 @@ body {
 }
 #band-members figure {
     display: inline-block;
-    width: 15%;
-    padding-right: 9%;
+    width: 20%;
+    padding-right: 40px;
 }
 #band-members figcaption {
     font-weight: 700;
-    margin: 0 auto;
 }
 #band-members img {
-    width: 120%;
+    width: 100%;
 }
 
 /* Greatest Hits section */
