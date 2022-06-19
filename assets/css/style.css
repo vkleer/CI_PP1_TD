@@ -22,6 +22,9 @@ body {
 #menu-wrapper {
     background-color: rgba(20, 20, 20, 0.9);
     height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 #menu {
@@ -73,11 +76,16 @@ body {
 
 #band-members {
     text-align: center;
+    padding-top: 40px;
 }
 #band-members figure {
     display: inline-block;
     width: 15%;
-    padding: 20px;
+    padding-right: 9%;
+}
+#band-members figcaption {
+    font-weight: 700;
+    margin: 0 auto;
 }
 #band-members img {
     width: 120%;
