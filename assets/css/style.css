@@ -107,6 +107,7 @@ body {
     display: inline-block;
     width: 30%;
     padding-right: 1%;
+    vertical-align: top;
 }
 #greatest-hits-videos iframe {
     width: 100%;
