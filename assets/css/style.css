@@ -52,6 +52,9 @@ body {
     text-align: center;
     padding-bottom: 40px;
 }
+.caption {
+    font-weight: 700;
+}
 
 /* .image-text {
     position: absolute;
@@ -83,9 +86,6 @@ body {
     width: 20%;
     padding-right: 40px;
 }
-#band-members figcaption {
-    font-weight: 700;
-}
 #band-members img {
     width: 100%;
 }
@@ -101,10 +101,14 @@ body {
 
 #greatest-hits-videos {
     text-align: center;
+    padding-top: 40px;
 }
 #greatest-hits-videos figure {
     display: inline-block;
+    width: 30%;
+    padding-right: 1%;
 }
 #greatest-hits-videos iframe {
     width: 100%;
+    height: 233px;
 }
