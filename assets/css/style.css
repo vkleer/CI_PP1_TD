@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Josefin+Sans:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Josefin+Sans:wght@200;300;400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -39,5 +39,24 @@ body {
     color: #fff;
 }
 
-/* About section */
+/* The Band section */
 
+#the-band-image {
+    background: url('../images/about-image.webp') no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.image-text {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+.image-span {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(20, 20, 20, 0.7);
+    padding: 20px;
+}
