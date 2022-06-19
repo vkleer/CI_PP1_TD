@@ -41,12 +41,6 @@ body {
 
 /* The Band section */
 
-#the-band-image {
-    background: url('../images/about-image.webp') no-repeat center center;
-    background-size: cover;
-    height: 700px;
-}
-
 .image-text {
     position: absolute;
     top: 40%;
@@ -59,4 +53,32 @@ body {
     color: #fff;
     background-color: rgba(20, 20, 20, 0.7);
     padding: 20px;
+}
+
+#the-band-image {
+    background: url('../images/about-image.webp') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+#the-band {
+    padding: 40px;
+    font-size: 120%;
+}
+#the-band h1 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#band-members {
+    text-align: center;
+}
+#band-members figure {
+    display: inline-block;
+    width: 15%;
+    padding: 20px;
+}
+#band-members img {
+    width: 120%;
 }
