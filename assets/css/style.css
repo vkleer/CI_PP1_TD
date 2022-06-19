@@ -44,7 +44,16 @@ body {
 
 /* The Band section */
 
-.image-text {
+.section-content {
+    padding: 40px;
+    font-size: 120%;
+}
+.section-content h1 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* .image-text {
     position: absolute;
     top: 40%;
     width: 100%;
@@ -56,22 +65,13 @@ body {
     color: #fff;
     background-color: rgba(20, 20, 20, 0.7);
     padding: 20px;
-}
+} */
 
 #the-band-image {
     background: url('../images/about-image.webp') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 700px;
-}
-
-#the-band {
-    padding: 40px;
-    font-size: 120%;
-}
-#the-band h1 {
-    text-align: center;
-    padding-bottom: 40px;
 }
 
 #band-members {
@@ -89,4 +89,23 @@ body {
 }
 #band-members img {
     width: 120%;
+}
+
+/* Greatest Hits section */
+
+#greatest-hits-image {
+    background: url('../images/greatest-hits-image.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 525px;
+}
+
+#greatest-hits-videos {
+    text-align: center;
+}
+#greatest-hits-videos figure {
+    display: inline-block;
+}
+#greatest-hits-videos iframe {
+    width: 100%;
 }
