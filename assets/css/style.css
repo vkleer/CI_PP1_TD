@@ -113,3 +113,12 @@ body {
     width: 100%;
     height: 233px;
 }
+
+/* Legacy section */
+
+#legacy-image {
+    background: url('../images/legacy-image.jpeg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 525px;
+}
