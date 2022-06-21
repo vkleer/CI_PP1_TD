@@ -141,8 +141,8 @@ body {
 }
 #greatest-hits-videos figure {
     display: inline-block;
-    width: 30%;
-    padding-right: 1%;
+    width: 32%;
+    padding-right: 10px;
     vertical-align: top;
 }
 #greatest-hits-videos iframe {
