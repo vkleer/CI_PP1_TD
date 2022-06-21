@@ -208,17 +208,27 @@
             Want to know more about The Doors? We send out a monthly newsletter with exclusive images and stories that you can't find anywhere else on the internet. Simply fill out the form below to join us.
         </p>
         <br>
+        <br>
         <form action="action="https://formdump.codeinstitute.net/" method="POST">
-            <label for="first-name">First name:</label>
-            <input type="text" name="first-name" id="first-name" class="text-input">
+            <div class="form-name">
+                <label for="first-name">First name:</label>
+                <input type="text" name="first-name" id="first-name" class="text-input">
+            </div>
+            
+            <div class="form-name">
+                <label for="last-name">Last name:</label>
+                <input type="text" name="last-name" id="last-name" class="text-input">
+            </div>
 
-            <label for="last-name">Last name:</label>
-            <input type="text" name="last-name" id="last-name" class="text-input">
+            <div id="form-email">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="text-input">
+            </div>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" class="text-input">
-
-            <input id="newsletter-button" type="submit" value="Join newsletter">
+            <div id="form-button">
+                <input id="newsletter-button" type="submit" value="Join newsletter">
+            </div>
+            
         </form>
     </section>
 
