@@ -65,7 +65,7 @@ body {
     padding: 10px 0;
 }
 
-#the-band-image {
+#hero-image {
     background: url('../images/about-image.webp') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
