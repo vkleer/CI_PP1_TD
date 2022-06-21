@@ -87,7 +87,7 @@ h2 {
 
 /* The Band section */
 #hero-image {
-    background: url('../images/about-image.webp') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     background-color: rgb(20, 20, 20);
     background-size: cover;
     background-attachment: fixed;
@@ -267,6 +267,26 @@ footer {
 
 /* For tablet sized screens */
 @media screen and (max-width: 1200px) {
+
+    #hero-image {
+        background-image: url('../images/hero-image-tablet.jpg');
+    }
+    .image-text {
+        top: 30%;
+    }
+
+    #legacy-image {
+        background-image: url('../images/legacy-image-tablet.jpg');
+    }
+
+    #newsletter-image {
+        background-image: url('../images/newsletter-image-tablet.jpg')
+    }
+
+    #greatest-hits-videos figure {
+        width: 48%;
+    }
+}
 
  /* For phone sized screens */
 @media screen and (max-width: 850px) {
