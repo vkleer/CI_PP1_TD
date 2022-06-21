@@ -24,9 +24,9 @@ body {
     background-color: rgb(20, 20, 20);
     height: 70px;
     width: 100%;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 1; */
 }
 
 #menu {
@@ -61,7 +61,7 @@ body {
     padding-bottom: 40px;
 }
 .section-black {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(20, 20, 20);
     color: white;
 }
 
@@ -104,17 +104,27 @@ body {
     line-height: 104px;
 }
 
-#band-members {
+#band-member-images {
     text-align: center;
 }
-#band-members figure {
+#band-member-images figure {
     display: inline-block;
     width: 20%;
     vertical-align: bottom;
 }
-#band-members img {
+#band-member-images img {
     display: block;
     width: 100%;
+    transition: .2s
+}
+#band-member-images img:hover {
+    width: 110%;
+    opacity: 0.7;
+}
+
+#band-members h2 {
+    font-size: 1.45rem;
+    padding: 20px 0;
 }
 
 /* Greatest Hits section */
