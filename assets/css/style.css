@@ -34,6 +34,17 @@ h2 {
     z-index: 1;
 }
 
+/* Hamburger menu for mobile */
+label[for="toggle"] {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    color: rgb(255, 255, 255);
+}
+#toggle, #toggle-label, #toggle-label i {
+    display: none;
+}
+
 #menu {
     height: 70px;
     float: right;
@@ -290,5 +301,33 @@ footer {
 
  /* For phone sized screens */
 @media screen and (max-width: 850px) {
-    
+ 
+    .nav-responsive {
+        display: none;
+    }
+    #menu {
+        float: none;
+        margin-top: 70px;
+        background-color:rgb(20, 20, 20);
+        height: auto;
+    }
+    #menu > li {
+        display: block;
+        text-align: center;
+    }
+
+    #toggle-label, #toggle-label i {
+        display: initial;
+    }
+    #toggle:checked ~ .nav-responsive {
+        display: initial;
+    }
+
+    .form-name {
+        display: block;
+        width: 100%;
+    }
+    #form-email {
+        width: 100%;
+    }
 }
