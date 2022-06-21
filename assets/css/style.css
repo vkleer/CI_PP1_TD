@@ -13,6 +13,10 @@ body {
     font-weight: 300;
 }
 
+h2 {
+    font-size: 1.45rem;
+    padding: 20px 0;
+}
 /* Navigation */
 
 #header-logo {
@@ -111,6 +115,7 @@ body {
 #band-member-images figure {
     display: inline-block;
     width: 20%;
+    max-width: 300px;
     vertical-align: bottom;
 }
 #band-member-images img {
@@ -121,11 +126,6 @@ body {
 #band-member-images img:hover {
     width: 110%;
     opacity: 0.7;
-}
-
-#band-members h2 {
-    font-size: 1.45rem;
-    padding: 20px 0;
 }
 
 /* Greatest Hits section */
@@ -158,6 +158,15 @@ body {
 #legacy-image {
     background-image: url('../images/legacy-image.jpg');
     background-color: rgb(20, 20, 20);
+}
+
+#legacy-events img {
+    width: 20%;
+    max-width: 200px;
+}
+
+.div-right img{
+    float: right;
 }
 
 /* Newsletter section */
