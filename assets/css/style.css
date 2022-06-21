@@ -191,3 +191,28 @@ body {
 #newsletter-button:hover {
     background-color: rgb(80, 80, 80);
 }
+
+/* Footer section */
+
+footer {
+    height: 140px;
+    background-color:rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+}
+
+.social-media {
+    text-align: center;
+    line-height: 140px;
+}
+.social-media > li {
+    display: inline;
+    font-size: 2rem;
+    padding: 30px;
+    vertical-align: bottom;
+}
+.social-media i {
+    color: rgb(255, 255, 255);
+}
+.social-media a {
+    text-decoration: none;
+}
