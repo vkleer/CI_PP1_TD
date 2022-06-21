@@ -17,8 +17,8 @@ h2 {
     font-size: 1.45rem;
     padding: 20px 0;
 }
-/* Navigation */
 
+/* Navigation */
 #header-logo {
     height: 40px;
     float: left;
@@ -54,9 +54,9 @@ h2 {
     background-color: #fff;
     color: rgb(20, 20, 20);
 }
+/* End Nagivation */
 
 /* Classes for all sections */
-
 .section-content {
     padding: 40px 60px;
     font-size: 120%;
@@ -83,9 +83,9 @@ h2 {
     background-attachment: fixed;
     height: 350px;
 }
+/* End classes all sections */
 
 /* The Band section */
-
 #hero-image {
     background: url('../images/about-image.webp') no-repeat center center;
     background-color: rgb(20, 20, 20);
@@ -127,9 +127,9 @@ h2 {
     width: 110%;
     opacity: 0.7;
 }
+/* End The Band section */
 
 /* Greatest Hits section */
-
 #greatest-hits-image {
     background-image: url('../images/greatest-hits-image.jpg');
     background-color: rgb(20, 20, 20);
@@ -152,9 +152,9 @@ h2 {
 #greatest-hits-videos p {
     text-align: left;
 }
+/* End Greatest Hits Section */
 
 /* Legacy section */
-
 #legacy-image {
     background-image: url('../images/legacy-image.jpg');
     background-color: rgb(20, 20, 20);
@@ -173,24 +173,15 @@ h2 {
     max-width: 300px;
 }
 
-.img-right {
-    float: right;
-    padding-top: 20px;
-    margin: 0 0 20px 20px;
-}
 .img-left {
     float: left;
     clear: left;
     padding-top: 20px;
     margin: 0 20px 20px 0;
 }
-
-#walk-of-fame, #walk-of-fame ~ p {
-    text-align: right;
-}
+/* End legacy section */
 
 /* Newsletter section */
-
 #newsletter-image {
     background-image: url('../images/newsletter-image.jpg');
     background-color: rgb(20, 20, 20);
@@ -247,9 +238,9 @@ form {
     background-color: rgb(235, 235, 235);
     color: rgb(20, 20, 20);
 }
+/* End Newsletter section */
 
-/* Footer section */
-
+/* Footer */
 footer {
     height: 140px;
     background-color:rgb(20, 20, 20);
@@ -271,4 +262,13 @@ footer {
 }
 .social-media a {
     text-decoration: none;
+}
+/* End Footer */
+
+/* For tablet sized screens */
+@media screen and (max-width: 1200px) {
+
+ /* For phone sized screens */
+@media screen and (max-width: 850px) {
+    
 }
