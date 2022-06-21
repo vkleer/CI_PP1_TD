@@ -87,6 +87,11 @@ label[for="toggle"] {
 
 .caption {
     font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: rgb(20, 20, 20);
 }
 
 .parallax-image {
@@ -122,6 +127,7 @@ label[for="toggle"] {
 
 #band-member-images {
     text-align: center;
+    position: relative;
 }
 #band-member-images figure {
     display: inline-block;
@@ -137,6 +143,9 @@ label[for="toggle"] {
 #band-member-images img:hover {
     width: 110%;
     opacity: 0.7;
+}
+#band-member-images img:hover + .hide {
+    display: block;
 }
 /* End The Band section */
 
@@ -163,7 +172,7 @@ label[for="toggle"] {
 #greatest-hits-videos p {
     text-align: left;
 }
-/* End Greatest Hits Section */
+/* End Greatest Hits section */
 
 /* Legacy section */
 #legacy-image {
@@ -290,9 +299,9 @@ footer {
         background-image: url('../images/legacy-image-tablet.jpg');
     }
 
-    #newsletter-image {
+    /* #newsletter-image {
         background-image: url('../images/newsletter-image-tablet.jpg')
-    }
+    } */
 
     #greatest-hits-videos figure {
         width: 48%;
@@ -302,27 +311,41 @@ footer {
  /* For phone sized screens */
 @media screen and (max-width: 850px) {
  
+    /* Navigation */
     .nav-responsive {
         display: none;
     }
     #menu {
         float: none;
         margin-top: 70px;
-        background-color:rgb(20, 20, 20);
+        background-color:rgba(20, 20, 20, 0.7);
         height: auto;
     }
     #menu > li {
         display: block;
         text-align: center;
     }
+    #menu > li a {
+        padding: 0;
+        width: 100%;
+    }
 
     #toggle-label, #toggle-label i {
         display: initial;
     }
+    #xmark {
+        display: none;
+    }
     #toggle:checked ~ .nav-responsive {
         display: initial;
-    }
+    } /* End Navigation */
 
+    /* Greatest Hits section */
+    #greatest-hits-videos figure {
+        display: block;
+        width: 100%;
+    }
+    /* Newsletter section */
     .form-name {
         display: block;
         width: 100%;
