@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
     scroll-behavior: smooth;
+    scroll-padding-top: 70px;
 }
 
 body {
@@ -24,9 +25,9 @@ body {
     background-color: rgb(20, 20, 20);
     height: 70px;
     width: 100%;
-    /* position: fixed;
+    position: fixed;
     top: 0;
-    z-index: 1; */
+    z-index: 1;
 }
 
 #menu {
