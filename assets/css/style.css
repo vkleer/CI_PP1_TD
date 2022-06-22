@@ -388,7 +388,7 @@ footer {
         display: block;
         width: 100%;
     }
-    #form-email {
+    #form-email, #form-message {
         width: 100%;
     }
 }
