@@ -314,6 +314,30 @@ footer {
 }
 /* End Footer */
 
+/* 404 Error section */
+#error {
+    margin-top: 350px;
+    text-align: center;
+}
+#error  h1, #error p {
+    margin: 20px;
+}
+
+#home-button {
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgb(20, 20, 20);
+    color: #fafafa;
+    display: block;
+}
+#home-button:hover {
+    background-color: rgb(235, 235, 235);
+    color: rgb(20, 20, 20);
+}
+
 /* For tablet sized screens */
 @media screen and (max-width: 1200px) {
 

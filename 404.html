@@ -48,13 +48,17 @@
             </div>
         </header>   
         <!-- 404 error section -->
-        <section class="content-section">
-            <h1>404 Error</h1>
-            <p>
-                Page was not found, please click the button below to return to the homepage.
-            </p>
-            <input id="home-button" type="submit" value="Return Home" >
-        </section>
+        <div id="error">
+            <section class="content-section">
+                <h1>404 Error</h1>
+                <p>
+                    Page was not found, please click the button below to return to the homepage.
+                </p>
+                <form action="index.html" method="get">
+                    <input id="home-button" type="submit" value="Return Home">
+                </form>
+            </section>
+        </div>
         <!-- Footer -->
         <footer id="footer">
             <!-- Social media links -->
