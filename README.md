@@ -20,14 +20,30 @@
 ## Project Goals
 
 ### User Goals
+- Find information about The Doors
+- Find information about the band members
+- Watch videos from The Doors
+- Listen to music from The Doors
 
 ### Site Owner Goals
+- Provide essential information about The Doors
+- Promote The Doors’ music
+- Provide an intuitive and responsive experience
+- Provide users with a means of contacting site owner
 
 ## User Experience
 
 ### Target Audience
+- People interested in The Doors
+- The Doors tribute bands
+- Music enthusiasts
 
 ### User Requirements and Expectations
+- Structured website with clear sections
+- Finding relevant information quickly
+- Visually appealing and responsive website, no matter the device
+- A way to contact the site owner
+- Accessibility and readability
 
 ### User Stories
 
