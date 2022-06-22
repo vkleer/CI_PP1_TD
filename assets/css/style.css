@@ -211,8 +211,8 @@ label[for="toggle"] {
 }
 /* End legacy section */
 
-/* Newsletter section */
-#newsletter-image {
+/* Contact section */
+#contact-image {
     background-image: url('../images/newsletter-image.jpg');
     background-color: rgb(20, 20, 20);
 }
@@ -227,7 +227,7 @@ form {
     width: 350px;
     margin: 0 auto;
 }
-.form-name label, #form-email label {
+.form-name label, #form-email label, #form-message label {
     display: block;
     text-align: left;
     font-weight: 600;
@@ -235,6 +235,13 @@ form {
 #form-email {
     width: 704px;
     margin: 0 auto;
+}
+#form-message {
+    width: 704px;
+    margin: 0 auto;
+}
+#form-message textarea{
+    height: 150px;
 }
 #form-button {
     width: 700px;
@@ -254,7 +261,7 @@ form {
     border-color: rgb(20, 20, 20);
 }
 
-#newsletter-button {
+#contact-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
@@ -264,11 +271,11 @@ form {
     color: #fafafa;
     display: block;
 }
-#newsletter-button:hover {
+#contact-button:hover {
     background-color: rgb(235, 235, 235);
     color: rgb(20, 20, 20);
 }
-/* End Newsletter section */
+/* End Contact section */
 
 /* Footer */
 footer {
@@ -323,7 +330,7 @@ footer {
     .section-content {
         padding: 40px 20px;
     }
-    
+
     /* Change image */
     #hero-image {
         background-image: url('../images/hero-image-mobile.jpg');
@@ -376,7 +383,7 @@ footer {
         float: none;
     }
 
-    /* Change Newsletter layout */
+    /* Change Contact layout */
     .form-name {
         display: block;
         width: 100%;
