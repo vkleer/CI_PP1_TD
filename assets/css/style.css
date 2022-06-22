@@ -319,6 +319,11 @@ footer {
  /* For phone sized screens */
 @media screen and (max-width: 850px) {
 
+    /* Change padding for all sections */
+    .section-content {
+        padding: 40px 20px;
+    }
+    
     /* Change image */
     #hero-image {
         background-image: url('../images/hero-image-mobile.jpg');
