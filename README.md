@@ -69,6 +69,17 @@
 
 ## Design
 
+### Design Choices
+The site was designed to make learning about The Doors fun. A history site can easily become boring with walls of text - which is why I condensed all the core information and used a lot of imagery to go with the text. I made it a one-pager to make the site a journey, encouraging users to keep scrolling and learn more.
+
+### Colour
+Instead of using colours, I decided to use a grayscale theme. The Doors are a band from the 60's and a majority of their visual content is also in black and white, which I wanted to incorporate in the design. If a section has a lot of content, I split it up into two sections - one with a white background and the other with a black background.
+
+### Fonts
+To compliment the simplicity of the design I used only one font, with different font-weights: Josefin Sans, with a sans-serif fallback. The font is easy to read and suits the design well.
+
+### Structure
+
 ## Technologies Used
 
 ## Features
