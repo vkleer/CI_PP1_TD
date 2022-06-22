@@ -380,3 +380,17 @@ footer {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    #menu > li {
+        line-height: 40px;
+    }
+    #menu > li a {
+        height: 40px;
+    }
+
+    .social-media > li {
+        padding: 10px;
+    }
+}
