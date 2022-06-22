@@ -383,6 +383,9 @@ footer {
 
 @media screen and (max-width: 320px) {
 
+    .section-content {
+        padding: 40px 20px;
+    }
     #menu > li {
         line-height: 40px;
     }
