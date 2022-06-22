@@ -108,6 +108,20 @@ The site consists of five main sections:
 
 ## Technologies Used
 
+### Languages
+- HTML
+- CSS
+
+### Tools
+- Gitpod
+- Github
+- Git
+- Balsamiq
+- Google Fonts
+- Adobe Photoshop
+- Font Awesome
+- https://grayscale.imageonline.co/
+
 ## Features
 
 ## Testing
