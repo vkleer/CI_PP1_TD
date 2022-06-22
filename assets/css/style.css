@@ -328,6 +328,11 @@ footer {
     #greatest-hits-videos figure {
         width: 48%;
     }
+
+    /* Change social media padding */
+    .social-media > li {
+        padding: 20px;
+    }
 }
 
  /* For phone sized screens */
