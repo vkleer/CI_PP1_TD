@@ -362,6 +362,9 @@ footer {
         display: block;
         width: 100%;
     }
+    #greatest-hits-videos figure p {
+        margin-bottom: 20px;
+    }
 
     /* Change Legacy image layout */
     .img-left {
