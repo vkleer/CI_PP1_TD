@@ -79,6 +79,32 @@ Instead of using colours, I decided to use a grayscale theme. The Doors are a ba
 To compliment the simplicity of the design I used only one font, with different font-weights: Josefin Sans, with a sans-serif fallback. The font is easy to read and suits the design well.
 
 ### Structure
+The site is structured in a familiar and intuitive way. 
+<br>
+The navigation bar is sticky with a logo on the left and the links to the right. Since it's a one-pager, it's important to have the navigation visible at all times.
+<br>
+The content is split up into clear sections, divided by a parralax image to keep the design interesting. Each section is built in a different way so it doesn't feel repetitive.
+<br>
+The site consists of five main sections:
+- A home section with a hero image and text, telling users what the site is about
+- A band section, covering both the origin story as well as the individual band members
+- A greatest hit section, covering their greatest hits and most played Spotify tracks
+- A legacy section, informing users about their legacy
+- A contact section where users can submit suggestions or questions and find the old office location of The Doors
+
+### Wireframes
+<details><summary>Home/The Band</summary>
+<img src="docs/wireframes/home-the-band.png">
+</details>
+<details><summary>Greatest Hits</summary>
+<img src="docs/wireframes/greatest-hits.png">
+</details>
+<details><summary>Legacy</summary>
+<img src="docs/wireframes/legacy.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/contact.png">
+</details>
 
 ## Technologies Used
 
