@@ -323,6 +323,10 @@ footer {
         background-image: url('../images/hero-image-mobile.jpg');
         background-size: cover;
     }
+    .image-span {
+        font-size: 2rem;
+    }
+
     /* Change Navigation */
     .nav-responsive {
         display: none;
