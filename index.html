@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +14,10 @@
 </head>
 
 <body>
+    <!-- Site wrapper to control overflox-x property in CSS, see README.md for more information -->
     <div id="site-wrapper">
         <header>
+            <!-- Navigation bar -->
             <div id="menu-wrapper">
                 <a href="index.html">
                     <img src="assets/images/the-doors-logo-white.png" alt="Logo from The Doors (links back to the homepage)" id="header-logo">
@@ -44,12 +47,13 @@
                 </nav>
             </div>
         </header>   
-
+        <!-- Hero image -->
         <div id="hero-image">
             <div class="image-text">
                 <span class="image-span">A tribute page to the legendary band: The Doors.</span>
             </div>
         </div>
+        <!-- Band section -->
         <section id="the-band" class="section-content">
             <h1>The Band</h1>
             <p>
@@ -78,7 +82,7 @@
                 In 1993, they were inducted into the Rock and Roll Hall of Fame.
             </p>
         </section>
-
+        <!-- Band member images -->
         <div id="band-member-images">
             <figure>
                 <a href="#jim-morrison">
@@ -114,7 +118,7 @@
                 </a>
             </figure>      
         </div>
-
+        <!-- Band section -->
         <section id="band-members" class="section-content section-black">
             <h2 id="jim-morrison">Jim Morrison</h2>
             <p>
@@ -152,16 +156,16 @@
                 Inexorably drawn to music from childhood, Los Angeles-born Densmore honed his sense of dynamics playing with his high school marching band. In the mid-’60s he joined guitarist Robby Krieger in a band called Psychedelic Rangers; shortly thereafter they hooked up with keyboardist Ray Manzarek and Morrison, and an explosive chapter in the development of rock ‘n’ roll began.
             </p>
         </section>
-
+        <!-- Parallax image for Greatest Hits section -->
         <div id="greatest-hits-image" class="parallax-image">
             </div>
-
+        <!-- Greatest Hits section -->
         <section id="greatest-hits" class="section-content">
             <h1>Greatest Hits</h1>
             <p>
             This section is dedicated to showcasing some of The Doors' finest work. I have selected three of their greatest hits for you to listen to, along with a bit of history behind each song.
             </p>
-        
+            <!-- Videos of Greatest Hits section -->
             <div id="greatest-hits-videos">
                 <figure>
                     <iframe src="https://www.youtube.com/embed/mbj1RFaoyLk" frameborder="0" controls allowfullscreen></iframe>
@@ -193,6 +197,7 @@
                 </figure>   
             </div>
         </section>
+        <!-- Discover more music section -->
         <section class="section-content section-black">
             <h1>Discover More Music</h1>
             <p>
@@ -201,11 +206,13 @@
             <br>
             <br>
             <figure>
+                <!-- Embedded Spotify -->
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/22WZ7M8sxp5THdruNY3gXt?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">Your browser doesn't support iFrame elements</iframe>
             </figure>
         </section>
-
+        <!-- Parallax image for Legacy section -->
         <div id="legacy-image" class="parallax-image"></div>
+        <!-- Legacy section -->
         <section id="legacy" class="section-content">
             <h1>Legacy</h1>
             <p>
@@ -214,7 +221,7 @@
             <br>
             <p>While there are many things that have contributed to their legacy, there are three events that I want to cover in this section.</p>
         </section>
-
+        <!-- Legacy events section -->
         <section id="legacy-events" class="section-content section-black">
             <div>
                 <figure>
@@ -260,10 +267,10 @@
                 The film's soundtrack album reached No. 8 on the Billboard album chart and Greatest Hits and The Best of the Doors re-entered the chart, with the latter reaching a new peak position of No. 32.
             </p>
             </div>    
-            
         </section>
-
+        <!-- Parallax image for Contact section -->
         <div id="contact-image" class="parallax-image"></div>
+        <!-- Contact section -->
         <section id="contact" class="section-content">
             <h1>Contact</h1>
             <p>
@@ -271,33 +278,30 @@
             </p>
             <br>
             <br>
+            <!-- Form for Contact section -->
             <form action="action="https://formdump.codeinstitute.net/" method="POST">
                 <div class="form-name">
                     <label for="first-name">First name:</label>
                     <input type="text" name="first-name" id="first-name" class="text-input" required>
                 </div>
-                
                 <div class="form-name">
                     <label for="last-name">Last name:</label>
                     <input type="text" name="last-name" id="last-name" class="text-input" required>
                 </div>
-
                 <div id="form-email">
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" class="text-input" required>
                 </div>
-
                 <div id="form-message">
                     <label for="message">Message:</label>
                     <textarea name="message" id="message" rows="10" class="text-input"></textarea>
                 </div>
-
                 <div id="form-button">
                     <input id="contact-button" type="submit" value="Contact us" required></textarea>
                 </div>
             </form>
         </section>
-
+        <!-- Location section -->
         <section class="section-content section-black">
             <h1>The Doors Office and Recording Studio</h1>
             <p>
@@ -305,13 +309,13 @@
             </p>
         </section>
         <section>
+            <!-- Embedded Google Maps -->
             <iframe id="google-maps" style="border:0" loading="lazy" allowfullscreen
 src="https://www.google.com/maps/embed/v1/place?q=place_id:EjU4NTIxIFNhbnRhIE1vbmljYSBCbHZkLCBXZXN0IEhvbGx5d29vZCwgQ0EgOTAwNjksIFVTQSJREk8KNAoyCXuKase7vsKAEbUWVW4HMRlqGh4LEO7B7qEBGhQKEgnf7l6vuL7CgBEwyOWhx8Z5VgwQyUIqFAoSCTO4Sge7vsKAEf4If6DA7AMw&key=AIzaSyCZRWdqKnsFWnmnM9rKktRu-HlafxgtPSg"></iframe>
         </section>
-        
-
+        <!-- Footer -->
         <footer>
-
+            <!-- Social media links -->
             <ul class="social-media">
                 <li>
                     <a href="https://www.facebook.com/thedoors" target="_blank" rel="noopener" aria-label="Visit The Doors' Facebook Page (opens in a new tab)">
