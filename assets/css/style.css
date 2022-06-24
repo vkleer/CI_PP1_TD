@@ -176,6 +176,12 @@ label[for="toggle"] {
 #greatest-hits-videos p {
     text-align: left;
 }
+
+#spotify-api {
+    height:350px;
+    width: 100%;
+    border-radius: 12px'
+}
 /* End Greatest Hits section */
 
 /* Legacy section */
