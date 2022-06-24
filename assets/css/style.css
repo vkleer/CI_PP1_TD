@@ -213,7 +213,7 @@ label[for="toggle"] {
 
 /* Contact section */
 #contact-image {
-    background-image: url('../images/newsletter-image.jpg');
+    background-image: url('../images/contact-image.jpg');
     background-color: rgb(20, 20, 20);
 }
 
@@ -274,6 +274,11 @@ form {
 #contact-button:hover {
     background-color: rgb(235, 235, 235);
     color: rgb(20, 20, 20);
+}
+
+#workshop-image {
+    background-image: url('../images/the-doors-workshop.jpg');
+    background-color: rgb(20, 20, 20);
 }
 
 #google-maps {
