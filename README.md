@@ -60,11 +60,13 @@
 10. As a user, I want to know The Doors social media accounts so I can follow them.
 
 #### Site owner
-11. As the site owner, I want to provide a responsive website for all devices. 
-12. As the site owner, I want users to be able to contact me for questions or 13. suggestions
-13. As the site owner, I want users to be able to go to any section of the page easily, no matter where they are.
-14. As the site owner, I want to embed API’s to enhance the user experience
-15. As the site owner, I want to encourage users to explore The Doors’ music.
+11. As the site owner, I want the purpose of the site to be clear immediately.
+12. As the site owner, I want to provide a responsive website for all devices. 
+13. As the site owner, I want users to be able to contact me for questions or 13. suggestions
+14. As the site owner, I want users to be able to go to any section of the page easily, no matter where they are.
+15. As the site owner, I want to embed API’s to enhance the user experience
+16. As the site owner, I want to encourage users to explore The Doors’ music.
+
 
 
 ## Design
@@ -123,6 +125,22 @@ The site consists of five main sections:
 - https://grayscale.imageonline.co/
 
 ## Features
+The site has a total of five sections and x features:
+
+### Logo and Navigation bar
+- The official The Doors logo is used and placed on the left as is conventional
+- The navigation bar is sticky, meaning it will always be at the top of the page no matter how far you scroll down
+- The navigation bar is responsive and works on all screen sizes - the menu turns into a mobile-friendly 'hamburger' menu on screens below 850px
+- Covers user story **13**
+
+### Hero Image
+- Shows a picture of the band to introduce them to users
+- Picture changes depending on screen size, making sure all band members fit in on any screen size
+- Features the following text on top of the image to clearly state the purpose of the site: "A tribute page to the legendary band: The Doors"
+
+
+### Parallax Images
+- Used throughout the site to divide sections and keep the design interesting
 
 ## Testing
 
