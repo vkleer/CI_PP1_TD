@@ -19,11 +19,11 @@
         <header>
             <!-- Navigation bar -->
             <div id="menu-wrapper">
-                <a href="index.html">
-                    <img src="assets/images/the-doors-logo-white.png" alt="Logo from The Doors (links back to the homepage)" id="header-logo">
+                <a href="#hero-image">
+                    <img src="assets/images/the-doors-logo-white.png" alt="Logo from The Doors (links back to the top of the page)" id="header-logo">
                 </a>
-                <label for="toggle" id="toggle-label">
-                    <i class="fa-solid fa-bars"> Menu</i>
+                <label for="toggle" id="toggle-label" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars" aria-hidden="true"> Menu</i>
                 </label>
                 <input type="checkbox" name="toggle" id="toggle">
                 <nav class="nav-responsive">
@@ -48,7 +48,7 @@
             </div>
         </header>   
         <!-- Hero image -->
-        <div id="hero-image">
+        <div id="hero-image" aria-label="Photo of all The Doors band members">
             <div class="image-text">
                 <span class="image-span">A tribute page to the legendary band: The Doors.</span>
             </div>
@@ -159,7 +159,7 @@
             </p>
         </section>
         <!-- Parallax image for Greatest Hits section -->
-        <div id="greatest-hits-image" class="parallax-image">
+        <div id="greatest-hits-image" class="parallax-image" aria-label="Photo of Jim Morrison inside a car, looking at the camera">
             </div>
         <!-- Greatest Hits section -->
         <section id="greatest-hits" class="section-content">
@@ -171,7 +171,7 @@
             <div id="greatest-hits-videos">
                 <div>
                     <figure>
-                        <iframe src="https://www.youtube.com/embed/mbj1RFaoyLk" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/mbj1RFaoyLk" allowfullscreen title="Youtube video from The Doors: Light My Fire."></iframe>
                         <figcaption class="caption">
                             Light My Fire
                         </figcaption>
@@ -183,7 +183,7 @@
                 </div>
                 <div>
                     <figure>
-                        <iframe src="https://www.youtube.com/embed/W1hn1pF-ilQ"></iframe>
+                        <iframe src="https://www.youtube.com/embed/W1hn1pF-ilQ" aria-label="Youtube video from The Doors: Riders On The Storm."></iframe>
                         <figcaption class="caption">
                             Riders On The Storm
                         </figcaption>
@@ -194,7 +194,7 @@
                 </div>
                 <div>
                     <figure>
-                        <iframe src="https://www.youtube.com/embed/MA_TnixTfHc"></iframe>
+                        <iframe src="https://www.youtube.com/embed/MA_TnixTfHc" aria-label="Youtube video from The Doors: The End."></iframe>
                         <figcaption class="caption">
                             The End
                         </figcaption>
@@ -216,11 +216,11 @@
             <br>
             <figure>
                 <!-- Embedded Spotify -->
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/22WZ7M8sxp5THdruNY3gXt?utm_source=generator&theme=0" height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <iframe id="spotify-api" src="https://open.spotify.com/embed/artist/22WZ7M8sxp5THdruNY3gXt?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" aria-label="Spotify app with top tracks from The Doors"></iframe>
             </figure>
         </section>
         <!-- Parallax image for Legacy section -->
-        <div id="legacy-image" class="parallax-image"></div>
+        <div id="legacy-image" class="parallax-image" aria-label="Photo of The Rolling Stones magazine featuring Jim Morrison saying: He's hot, he's sexy and he's dead"></div>
         <!-- Legacy section -->
         <section id="legacy" class="section-content">
             <h1>Legacy</h1>
@@ -277,7 +277,7 @@
             </div>    
         </section>
         <!-- Parallax image for Contact section -->
-        <div id="contact-image" class="parallax-image"></div>
+        <div id="contact-image" class="parallax-image" aria-label="Photo of a plaque that says: This Location in 1970 known as The Doors Workshop. The Doors used this building as a recording studio. L A Woman mixed and recorded here"></div>
         <!-- Contact section -->
         <section id="contact" class="section-content">
             <h1>Contact</h1>
@@ -325,22 +325,22 @@ src="https://www.google.com/maps/embed/v1/place?q=place_id:EjU4NTIxIFNhbnRhIE1vb
             <ul class="social-media">
                 <li>
                     <a href="https://www.facebook.com/thedoors" target="_blank" rel="noopener" aria-label="Visit The Doors' Facebook Page (opens in a new tab)">
-                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/user/thedoors" target="_blank" rel="noopener" aria-label="Visit The Doors' Youtube Page (opens in a new tab)">
-                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/thedoors/" target="_blank" rel="noopener" aria-label="Visit The Doors' Instagram Page (opens in a new tab)">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
                     <a href="https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt" target="_blank" rel="noopener" aria-label="Visit The Doors' Spotify Page (opens in a new tab or Spotify app)">
-                        <i class="fab fa-spotify"></i>
+                        <i class="fab fa-spotify" aria-hidden="true"></i>
                     </a>
                 </li>
             </ul>
