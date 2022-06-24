@@ -45,6 +45,7 @@ label[for="toggle"] {
     top: 25px;
     right: 25px;
     color: rgb(255, 255, 255);
+    letter-spacing: 2px;
 }
 #toggle, #toggle-label, #toggle-label i {
     display: none;
