@@ -162,7 +162,7 @@ label[for="toggle"] {
     text-align: center;
     padding-top: 40px;
 }
-#greatest-hits-videos figure {
+#greatest-hits-videos div {
     display: inline-block;
     width: 32%;
     padding-right: 10px;
@@ -352,8 +352,11 @@ footer {
     }
 
     /* Change video width */
-    #greatest-hits-videos figure {
+    #greatest-hits-videos div {
         width: 48%;
+    }
+    #greatest-hits-videos div p {
+        margin-bottom: 20px;
     }
 
     /* Change social media padding */
@@ -414,12 +417,9 @@ footer {
     }
 
     /* Change video layout */
-    #greatest-hits-videos figure {
+    #greatest-hits-videos div {
         display: block;
         width: 100%;
-    }
-    #greatest-hits-videos figure p {
-        margin-bottom: 20px;
     }
 
     /* Change Legacy image layout */
