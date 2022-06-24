@@ -142,21 +142,14 @@ label[for="toggle"] {
     width: 100%;
     transition: .2s
 }
-#band-member-images .caption{
-    position: absolute;
-    top: -10px;
-    left: 0;
-    right: 0;
-    color: rgb(20, 20, 20);
-    padding: 0;
-}
+
 #band-member-images img:hover {
     width: 110%;
     opacity: 0.7;
 }
-#band-member-images img:hover + .hide {
+/* #band-member-images a:hover + .hide {
     display: block;
-}
+} */
 /* End The Band section */
 
 /* Greatest Hits section */
@@ -413,6 +406,11 @@ footer {
     }
     #toggle:checked ~ .nav-responsive {
         display: initial;
+    }
+
+    /* Change band member image width */
+    #band-member-images figure {
+        width: 100%;
     }
 
     /* Change video layout */
