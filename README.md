@@ -118,18 +118,22 @@ To compliment the simplicity of the design I used only one font, with different 
 </details>
 
 ### Structure
-The site is structured in a familiar and intuitive way. 
+The site is structured in an intuitive way, using common web design conventions. The navigation bar is sticky with a logo on the left and the links to the right. Since it's a one-pager, it's important to have the navigation visible at all times. Headings are used hierarchically within their respective sections.
 <br>
-The navigation bar is sticky with a logo on the left and the links to the right. Since it's a one-pager, it's important to have the navigation visible at all times.
 <br>
-The content is split up into clear sections, divided by a parralax image to keep the design interesting. Each section is built in a different way so it doesn't feel repetitive.
+The content is split up into clear sections, divided by a parralax image to keep the design interesting. Each section is built with a different layout containing several elements.
 <br>
-The site consists of five main sections:
-- A home section with a hero image and text, telling users what the site is about
-- A band section, covering both the origin story as well as the individual band members
-- A greatest hit section, covering their greatest hits and most played Spotify tracks
-- A legacy section, informing users about their legacy
-- A contact section where users can submit suggestions or questions and find the old office location of The Doors
+<br>
+The site consists of five main sections with four sub-sections:
+- The 'Home' section, introducing users to the site with a hero image and headline, telling users what the site is about
+- The 'The Band' section, covering The origin story
+- The 'The Band Members' sub-section, containing a small biography for each band member
+- The 'Greatest Hits' section, containing their greatest hits along with a short description
+- The 'Discover More Music' sub-section, where a Spotify API is embedded to provide users with more songs to listen to
+- The 'Legacy' section, informing users about The Doors' legacy
+- The 'Legacy Events' section, covering three events that cemented The Doors' legacy
+- The 'Contact' section where users can submit suggestions or questions 
+- The 'The Doors Office and Recording Studio' section, where users can find the old office and recording studio location of The Doors
 
 ### Wireframes
 <details><summary>Home/The Band</summary>
@@ -163,7 +167,7 @@ The site consists of five main sections:
 - https://favicon.io/
 
 ## Features
-The site has a total of five sections and 13 features.
+The site has a total of five sections and 14 features.
 
 ### Logo and Navigation bar
 - The official The Doors logo is used and placed on the left as is conventional
@@ -214,9 +218,12 @@ The site has a total of five sections and 13 features.
 
  ### Legacy
  - Introduces users to The Doors' legacy
+ - Covers user story **6**
+
+ ### Legacy Events
  - Contains three notable events that contributed to The Doors' legacy
  - The three events have their own accompanying image and use a black background to contrast the main section
- - Covers user story **1** and **6**
+  - Covers user story **1** and **6**
 
 ### Contact Form
 - Provides users with a way to contact the site owner
