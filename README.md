@@ -1,6 +1,8 @@
 # The Doors
 (Developer: Vilayat Kleer)
 
+![mockup-image.jpg](assets/images/mockup-image.JPG)
+
 [View the live website](https://vkleer.github.io/CI_PP1_TD)
 
 ## Table of Contents
@@ -9,13 +11,44 @@
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
 3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colour)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Tools](#tools)
 5. [Features](#features)
+    1. [Logo and Navigation bar](#logo-and-navigation-bar)
+    2. [Hero Image](#hero-image)
+    3. [Parallax Images](#parallax-images)
+    4. [The Band](#the-band)
+    5. [The Band Member Images](#the-band-member-images)
+    6. [The Band Members](#the-band-members)
+    7. [Greatest Hits](#greatest-hits)
+    8. [Discover More Music](#discover-more-music)
+    9. [Legacy](#legacy)
+    10. [Contact](#contact)
+    11. [The Doors Office and Recording Studio](#the-doors-office-and-recording-studio)
+    12. [Footer](#footer)
+    13. [404 Error Page](#404-error-page)
 6. [Testing](#validation)
+    1. [HTML Validation](#html-validation)
+    2. [CSS Validation](#css-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Testing on different devices](#testing-on-different-devices)
+    6. [Browser Compatibility](#browser-compatibility)
+    7. [Testing User Stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
@@ -410,5 +443,5 @@ If you want to clone this repository, follow these steps:
 
 ## Acknowledgements
 I would like to thank:
-- The Doors and all band members for inspiring me in many ways, including creating this website
+- The Doors and all individual band members for inspiring me in many ways, including creating this website
 - My mentor Mo Shami for providing me with advice and guidance for this project
