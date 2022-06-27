@@ -122,7 +122,7 @@ The site consists of five main sections:
 - https://grayscale.imageonline.co/
 
 ## Features
-The site has a total of five sections and 12 features.
+The site has a total of five sections and 13 features.
 
 ### Logo and Navigation bar
 - The official The Doors logo is used and placed on the left as is conventional
