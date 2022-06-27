@@ -294,17 +294,29 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | The Band | Navigate to the 'The Band' section | Find information about the band | Works as expected |
 
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-1">
+</details>
+
 2. As a user, I want to learn who the band members are
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | The Band Members | Navigate to 'The Band' section and scroll down to 'The Band Members' sub-section | Find information about the band members | Works as expected |
 
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-2">
+</details>
+
 3. As a user, I want to find out more about The Doors' music
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Greatest Hits | Navigate to the 'Greatest Hits' section | Find information about The Doors' songs | Works as expected |
+
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-3">
+</details>
 
 4. As a user, I want to have control over the video and audio.
 
@@ -313,6 +325,12 @@ The site has been tested without any issues on the four browsers with the larges
 | Greatest Hits | Navigate to the 'Greatest Hits' section | Be able to watch videos that I can pause, change volume and put on fullscreen | Works as expected |
 | Discover More Music | Navigate to 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Be able to listen to songs that I can pick, pause and change volume | Works as intended |
 
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-4a">
+<br>
+<img src="docs/user-story-testing/user-story-4b">
+</details>
+
 5. As a user, I want to easily find The Doors’ Spotify content
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -320,11 +338,19 @@ The site has been tested without any issues on the four browsers with the larges
 | Discover More Music | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Be able to find The Doors' Spotify page | Works as intended |
 | Footer | Navigate to the footer | Be able to find The Doors' Spotify page | Works as intended |
 
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-5">
+</details>
+
 6. As a user, I want to learn about The Doors’ legacy
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Legacy | Navigate to the 'Legacy' section | Find information about The Doors' legacy | Works as intended |
+
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-6">
+</details>
 
 7. As a user, I want to know where The Doors recorded their music
 
@@ -332,11 +358,19 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | The Doors Office and Recording Studio | Navigate to 'Contact' section and scroll down to 'The Doors Office and Recording Studio' sub-section | Find out where The Doors recorded their music | Works as intended |
 
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-7">
+</details>
+
 8. As a user, I want to be able to contact the site owner
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
+
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-8">
+</details>
 
 9. As a user, I want to know The Doors social media accounts so I can follow them.
 
@@ -344,11 +378,19 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | Footer | Navigate to the footer | Find social media links | Works as intended |
 
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-9">
+</details>
+
 10. As the site owner, I want the purpose of the site to be clear immediately
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Hero Image | Navigate to the 'Home' section | Find out what the site is about | Works as intended |
+
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-10">
+</details>
 
 11. As the site owner, I want to provide a responsive website for all devices.
 
@@ -356,17 +398,29 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | The entire site | Open site on different devices | The site works on any device | Works as intended |
 
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-11">
+</details>
+
 12. As the site owner, I want users to be able to contact me for questions or suggestions
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
 
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-12">
+</details>
+
 13. As the site owner, I want users to be able to go to any section of the page easily, no matter where they are
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | Use the navigation bar | Be taken to the section I click on in the navigation bar | Works as intended |
+
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-13">
+</details>
 
 14. As the site owner, I want to embed API’s to enhance the user experience
 
@@ -375,6 +429,11 @@ The site has been tested without any issues on the four browsers with the larges
 | Spotify API | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Find an embedded API | Works as intended |
 | Google Maps API | Navigate to 'Contact' section and scroll down to 'The Doors Office and Recording Studio' sub-section | Find an embedded API | Works as expected |
 
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-14a">
+<img src="docs/user-story-testing/user-story-14b">
+</details>
+
 15. As the site owner, I want to encourage users to explore The Doors’ music
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -382,6 +441,10 @@ The site has been tested without any issues on the four browsers with the larges
 | Greatest Hits | Navigate to the 'Greatest Hits' section | Provide users with The Doors' greatest hits | Works as expected |
 | Discover More Music | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Provide users with more music to listen to + a link to their Spotify page | Works as expected |
 | Footer | Navigate to the footer | Provide users another link to The Door's Spotify page | Works as intended |
+
+<details><summary>Supporting Screenshots</summary>
+<img src="docs/user-story-testing/user-story-15">
+</details>
 
 ## Bugs
 
