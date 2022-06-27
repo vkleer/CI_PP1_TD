@@ -175,16 +175,28 @@ The site has a total of five sections and 13 features.
 - The navigation bar is responsive and works on all screen sizes - the menu turns into a mobile-friendly 'hamburger' menu on screens with a width of 850px and less
 - Covers user story **8** and **13**
 
+<details><summary>Screenshot of Logo and Navigation bar</summary>
+    <img src="docs/features/logo-and-navigation-bar-feature.jpg">
+</details>
+
 ### Hero Image
 - Shows a picture of the band to introduce them to users
 - Picture changes depending on screen size, making sure all band members fit in on any screen size
 - Features the following text on top of the image to clearly state the purpose of the site: "A tribute page to the legendary band: The Doors"
 - Covers user story **10**
 
+<details><summary>Screenshot of Hero Image</summary>
+    <img src="docs/features/hero-image-feature.jpg">
+</details>
+
 ### Parallax Images
 - To divide the different sections on the site, multiple background images have been used to keep the design interesting
 - The images move at a different speed than the rest of the content when scrolling, creating an aesthetically pleasing effect
 - The hero image is also a parallax image
+
+<details><summary>GIF of Parallax Images</summary>
+    <img src="docs/features/parallax-images-feature.gif">
+</details>
 
 ### The Band
 - Informs users about how and when the band came about
@@ -195,17 +207,29 @@ The site has a total of five sections and 13 features.
 - Images take users to their corresponding short biographies if clicked on
 - Covers user story **1**, **2** and **3**
 
+<details><summary>Screenshot of The Band</summary>
+    <img src="docs/features/the-band-feature.jpg">
+</details>
+
 ### The Band Members
 - Sub-section of 'The Band'
 - Uses black background to contrast the main section
 - Informs users the band members and their role in the band
 - Covers user story **2**
 
+<details><summary>Screenshot of The Band Members</summary>
+    <img src="docs/features/the-band-members-feature.jpg">
+</details>
+
 ### Greatest Hits
  - Introduces users to The Doors' greatest hits with three Youtube videos and accompanying descriptions
  - The videos are placed within <figure> elements and have use <figcaption>'s to semantically organize them
  - Covers user story **3**, **4** and **15**
  
+<details><summary>Screenshot of Greatest Hits</summary>
+    <img src="docs/features/greatest-hits-feature.jpg">
+</details>
+
  ### Discover More Music
  - Sub-section of 'Greatest Hits'
  - Uses black background to contrast the main section
@@ -213,18 +237,35 @@ The site has a total of five sections and 13 features.
  - The Spotify logo can be clicked to open Spotify and take users to The Doors' Spotify page
  - Covers user story **4**, **5**, **14** and **15**
 
+<details><summary>Screenshot of Discover More Music</summary>
+    <img src="docs/features/discover-more-music-feature.jpg">
+</details>
+
  ### Legacy
  - Introduces users to The Doors' legacy
+ - Segue to the 'Legacy Events' section
  - Covers user story **6**
+
+<details><summary>Screenshot of Legacy</summary>
+    <img src="docs/features/legacy-feature.jpg">
+</details>
 
  ### Legacy Events
  - Contains three notable events that contributed to The Doors' legacy
  - The three events have their own accompanying image and use a black background to contrast the main section
   - Covers user story **1** and **6**
 
+<details><summary>Screenshot of Legacy Events</summary>
+    <img src="docs/features/legacy-events-feature.jpg">
+</details>
+
 ### Contact
 - Provides users with a way to contact the site owner
 - Covers user story **8** and **12**
+
+<details><summary>Screenshot of Contact</summary>
+    <img src="docs/features/contact-feature.jpg">
+</details>
 
 ### The Doors Office and Recording Studio
 - Sub-section of 'Contact'
@@ -232,14 +273,26 @@ The site has a total of five sections and 13 features.
 - Has the Google Maps API embedded to show The Doors' old office and recording studio location
 - Covers user story **7**
 
+<details><summary>Screenshot of The Doors Office and Recording Studio</summary>
+    <img src="docs/features/the-doors-office-and-recording-studio-feature.jpg">
+</details>
+
 ### Footer
 - At the bottom of the page as is conventional, using the same color as the nagivation bar for consistency
 - Contains social media links to The Doors' social media pages, with corresponding icons
 - Covers user story **9**
 
+<details><summary>Screenshot of Footer</summary>
+    <img src="docs/features/footer-feature.jpg">
+</details>
+
 ### 404 Error Page
 - Displays a custom 404 error page, keeping the user in the flow of the website
 - Provides a means for the user to easily return to the main website
+
+<details><summary>Screenshot of 404 Error Page</summary>
+    <img src="docs/features/404-feature.jpg">
+</details>
 
 ## Testing
 
