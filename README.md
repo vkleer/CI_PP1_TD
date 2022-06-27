@@ -300,10 +300,10 @@ The site has a total of five sections and 13 features.
 The HTML of the site has been validated using W3C's Markup Validation Service. Both of the pages pass with no errors or warnings.
 
 <details><summary>Screenshot of index page HTML validation</summary>
-    <img src="docs/validation/index-validation.jpg">
+    <img src="docs/validation/index-html-validation.jpg">
 </details>
 <details><summary>Screenshot of 404 page HTML validation</summary>
-    <img src="docs/validation/404-validation.jpg">
+    <img src="docs/validation/404-html-validation.jpg">
 </details>
 
 ### CSS Validation
