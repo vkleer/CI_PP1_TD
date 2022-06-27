@@ -110,6 +110,13 @@ The Doors are a band from the 60's and a majority of their visual content is in 
 ### Fonts
 To compliment the simplicity of the design I used only one font, with different font-weights: Josefin Sans, with a sans-serif fallback. The font is easy to read was designed to have a vintage feel.
 
+<details><summary>Font Example</summary>
+<img src="docs/font-images/josefin-example.jpg">
+</details>
+<details><summary>Font Description</summary>
+<img src="docs/font-images/josefin-info.jpg">
+</details>
+
 ### Structure
 The site is structured in a familiar and intuitive way. 
 <br>
