@@ -318,6 +318,7 @@ The site has been tested without any issues on the four browsers with the larges
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Discover More Music | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Be able to find The Doors' Spotify page | Works as intended |
+| Footer | Navigate to the footer | Be able to find The Doors' Spotify page | Works as intended |
 
 6. As a user, I want to learn about The Doors’ legacy
 
