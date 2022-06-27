@@ -148,9 +148,6 @@ label[for="toggle"] {
     width: 110%;
     opacity: 0.7;
 }
-/* #band-member-images a:hover + .hide {
-    display: block;
-} */
 /* End The Band section */
 
 /* Greatest Hits section */
@@ -180,7 +177,7 @@ label[for="toggle"] {
 #spotify-api {
     height:350px;
     width: 100%;
-    border-radius: 12px'
+    border-radius: 12px;
 }
 /* End Greatest Hits section */
 
