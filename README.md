@@ -377,3 +377,21 @@ If you want to clone this repository, follow these steps:
 7. Paste in the clone command you copied and press the 'enter' key to create the clone
 
 ## Credits
+
+### Images
+[hero-image.webp](assets/images/hero-image.webp) from [Mubi.com](https://mubi.com/de/films/when-youre-strange-a-film-about-the-doors)
+[hero-image-tablet.jpg](assets/images/hero-image-tablet.jpg) from [Laut.de](https://www.laut.de/The-Doors)
+[hero-image-mobile.jpg](assets/images/hero-image-mobile.jpg) from [The Doors official Youtube channel](https://www.youtube.com/user/thedoors)
+[bio-jim-morrison.png](assets/images/bio-jim-morrison.png) from [The Doors' official website](https://thedoors.com/the-band)
+[bio-john-densmore.png](assets/images/bio-john-densmore.png) from [The Doors' official website](https://thedoors.com/the-band)
+[bio-ray-manzarek.png](assets/images/bio-ray-manzarek.png) from [The Doors' official website](https://thedoors.com/the-band)
+[bio-robbie-krieger.png](assets/images/bio-robbie-krieger.png) from [The Doors' official website](https://thedoors.com/the-band)
+[greatest-hits-image.jpg](assets/images/greatest-hits-image.jpg) from Twitter user [@crockpics](https://twitter.com/crockpics/status/1128108068989034496/photo/1) from [The Doors' official website](https://thedoors.com/the-band)
+[legacy-image.jpg](assets/images/legacy-image.jpg) from Tumblr user [frxzentears](https://frxzentears.tumblr.com/)
+[legacy-image-tablet.jpg](assets/images/legacy-image.jpg) from Tumblr user [frxzentears](https://frxzentears.tumblr.com/) - I increased the image height in Adobe Photoshop to better fit smaller screens
+[american-prayer](assets/images/american-prayer.jpg) from [Amazon.de](https://www.amazon.de/American-Prayer-Jim-Morrison/dp/B000002HJD)
+[alive-she-cried.jpg](assets/images/alive-she-cried.jpg) from [Wikipedia](https://en.wikipedia.org/wiki/Alive,_She_Cried#/media/File:TheDoorsAliveSheCriedalbumcover.jpg)
+[doors-movie.jpg](assets/images/doors-movie.jpg) from [IMDB](https://www.imdb.com/title/tt0101761/)
+[contact-image.jpg](assets/images/contact-image.jpg) by [Craig Baker](https://historicalmarkerproject.com/users/2713/craig-baker) from [The Historical Marker Database](https://www.hmdb.org/m.asp?m=183145)
+[the-doors-logo-white.png](assets/images/the-doors-logo-white.png) from [Wikipedia](https://commons.wikimedia.org/wiki/File:The_Doors_Logo.png) - I made the logo white using Adobe Photoshop
+[favicon.ico](assets/images/favicon.ico) by [Joel Brodsky](https://www.holdenluntz.com/artists/joel-brodsky/) from [Holden Luntz Gallery](https://www.holdenluntz.com/artists/joel-brodsky/jim-morrison/) - I copped the image using Adobe Photoshop and used [favicon.io](https://favicon.io/) to turn it into an .ico file
