@@ -162,6 +162,7 @@ The site consists of five main sections with four sub-sections:
 - Balsamiq
 - Google Fonts
 - Adobe Photoshop
+- Adobe Illustrator
 - Font Awesome
 - https://grayscale.imageonline.co/
 - https://favicon.io/
@@ -546,6 +547,7 @@ If you want to clone this repository, follow these steps:
 7. Paste in the clone command you copied and press the 'enter' key to create the clone
 
 ## Credits
+Images that are not referenced below are created or owned by the developer.
 
 ### Images
 - [hero-image.webp](assets/images/hero-image.webp) from [Mubi.com](https://mubi.com/de/films/when-youre-strange-a-film-about-the-doors)
