@@ -225,7 +225,7 @@ The site has a total of five sections and 14 features.
  - The three events have their own accompanying image and use a black background to contrast the main section
   - Covers user story **1** and **6**
 
-### Contact Form
+### Contact
 - Provides users with a way to contact the site owner
 - Covers user story **8** and **12**
 
