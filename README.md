@@ -198,6 +198,63 @@ The site has a total of five sections and 13 features.
 
 ## Testing
 
+### HTML Validation
+The HTML of the site has been validated using W3C's Markup Validation Service. Both of the pages pass with no errors or warnings.
+
+<details><summary>Home</summary>
+
+</details>
+<details><summary>404</summary>
+
+</details>
+
+### CSS Validation
+The CSS of the site has been validatus using W3C's CSS Validation Service. It passed with no errors or warnings.
+
+<details><summary>CSS</summary>
+
+</details>
+
+### Accessibility
+The accessibility of the site has been measured using the Wave WebAIM web accessibility evaluation tool. Both of the pages pass with no errors.
+
+<details><summary>Home</summary>
+
+</details>
+<details><summary>404</summary>
+
+</details>
+
+### Performance
+The performance of the site has been measured with Google Lighthouse. 
+
+<details><summary>Home</summary>
+For my index page, the 'Best Practices' score of 92 can unfortunately not be increased - the Youtube videos I embedded on my site have a SameSite error, which is a problem on Youtube's end.
+</details>
+<details><summary>404</summary>
+The 404 page passes with a perfect score.
+</details>
+
+### Testing on different devices
+The site has been tested on multiple physical devices without any issues:
+
+- Desktop PC
+- MacBook Pro 15"
+- Google Pixel 6 Pro
+- Samsung Galaxy S10
+- Samsung Galaxy Note 10+
+
+In addition to the physical devices, the site has also been tested without any issues by toggling all the different device options in Google Chrome's Developer Tools under the Device Toggling section.
+
+### Browser compatibility
+The site has been tested without any issues on the four browsers with the largest userbase (as reported on https://gs.statcounter.com/browser-market-share):
+- Google Chrome
+- Safari
+- Microsoft Edge
+- Mozilla Firefox
+
+### Testing user stories
+
 ## Bugs
 
 ## Deployment
