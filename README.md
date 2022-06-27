@@ -42,7 +42,7 @@
     2. [CSS Validation](#css-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Testing on different devices](#testing-on-different-devices)
+    5. [Testing on Different Devices](#testing-on-different-devices)
     6. [Browser Compatibility](#browser-compatibility)
     7. [Testing User Stories](#testing-user-stories)
 8. [Bugs](#Bugs)
@@ -269,7 +269,7 @@ For my index page, the 'Best Practices' score of 92 can unfortunately not be inc
 The 404 page passes with a perfect score.
 </details>
 
-### Testing on different devices
+### Testing on Different Devices
 The site has been tested on multiple physical devices without any issues:
 
 - Desktop PC
@@ -280,14 +280,14 @@ The site has been tested on multiple physical devices without any issues:
 
 In addition to the physical devices, the site has also been tested without any issues by toggling all the different device options in Google Chrome's Developer Tools under the Device Toggling section.
 
-### Browser compatibility
+### Browser Compatibility
 The site has been tested without any issues on the four browsers with the largest userbase (as reported on https://gs.statcounter.com/browser-market-share):
 - Google Chrome
 - Safari
 - Microsoft Edge
 - Mozilla Firefox
 
-### Testing user stories
+### Testing User Stories
 1. As a user, I want to learn what The Doors achieved as a band.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
