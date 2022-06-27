@@ -202,6 +202,9 @@ label[for="toggle"] {
     min-width: 200px;
     max-width: 300px;
 }
+#legacy-events h1 {
+    padding-bottom: 20px;
+}
 
 .img-left {
     float: left;
