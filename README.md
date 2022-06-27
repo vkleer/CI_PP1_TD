@@ -167,7 +167,7 @@ The site consists of five main sections with four sub-sections:
 - https://favicon.io/
 
 ## Features
-The site has a total of five sections and 14 features.
+The site has a total of five sections and 13 features.
 
 ### Logo and Navigation bar
 - The official The Doors logo is used and placed on the left as is conventional
@@ -190,13 +190,10 @@ The site has a total of five sections and 14 features.
 - Informs users about how and when the band came about
 - Informs users about what set them apart from other bands at the time
 - Informs users about the origin of the band name
-- Covers user story **1** and **3**
-
-### The Band Member Images
 - Contains images of each band member along with their name in a <figcaption>
 - Images increase their size and become slightly transparent when hovered over
 - Images take users to their corresponding short biographies if clicked on
-- Covers user story **2**
+- Covers user story **1**, **2** and **3**
 
 ### The Band Members
 - Sub-section of 'The Band'
