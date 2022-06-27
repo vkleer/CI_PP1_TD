@@ -565,6 +565,11 @@ If you want to clone this repository, follow these steps:
 - [the-doors-logo-white.png](assets/images/the-doors-logo-white.png) from [Wikipedia](https://commons.wikimedia.org/wiki/File:The_Doors_Logo.png) - I made the logo white using Adobe Photoshop
 - [favicon.ico](assets/images/favicon.ico) by [Joel Brodsky](https://www.holdenluntz.com/artists/joel-brodsky/) from [Holden Luntz Gallery](https://www.holdenluntz.com/artists/joel-brodsky/jim-morrison/) - I copped the image using Adobe Photoshop and used [favicon.io](https://favicon.io/) to turn it into an .ico file
 
+### Text
+- The text that I used in 'The Band' section comes from [The Doors' Wikipedia page](https://en.wikipedia.org/wiki/The_Doors)
+- The text that I used in 'The Band Members' section comes from [The Official The Doors' site](https://thedoors.com/the-band)
+- The song descriptions on the 'Greatest Hits' section are snippets from their respective Wikipedia pages - [Light My Fire](https://en.wikipedia.org/wiki/Light_My_Fire), [Riders on the Storm](https://en.wikipedia.org/wiki/Riders_on_the_Storm) and [The End](https://en.wikipedia.org/wiki/The_End_(The_Doors_song))
+
 ### Code
 - The HTML and CSS for the responsive navigation bar was inspired (not copy and pasted) by [a Medium article](https://medium.com/@lizfaria/create-a-responsive-dropdown-menu-in-html-css-in-ten-steps-fdb4aa906978) from [Liz Faria](https://medium.com/@lizfaria)
 - The solution to my sticky navigation bar overlapping my in-page headers was found on [Stack Overflow](https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors) and posted by [Adrian Garner](https://stackoverflow.com/users/573373/adrian-garner)
