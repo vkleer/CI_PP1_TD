@@ -120,6 +120,7 @@ The site consists of five main sections:
 - Adobe Photoshop
 - Font Awesome
 - https://grayscale.imageonline.co/
+- https://favicon.io/
 
 ## Features
 The site has a total of five sections and 13 features.
@@ -349,6 +350,13 @@ The site has been tested without any issues on the four browsers with the larges
 | Footer | Navigate to the footer | Provide users another link to The Door's Spotify page | Works as intended |
 
 ## Bugs
+
+| **Bug** | **Fix** |
+|-------------|------------|
+| Sticky navigation bar overlaps in-page anchors when using navigation menu  | Add scroll-padding-top property and set value equal to navigation bar height - [commit link](https://github.com/vkleer/CI_PP1_TD/commit/6be27546209a56bb85cee5504f16fdaca53e3b3b) |
+| On smaller screens the site would show a horizontal scroll bar with empty content being displayed on the right | Add overflow-x property and set value to hidden - [commit link](https://github.com/vkleer/CI_PP1_TD/commit/c1b5ba906ef1153820b5eb003092dde235bac0f3) |
+| Footer was not on the bottom of the 404 page due to lack of content | Add position property and set the value to absolute, then add bottom property and set the value to 0 - [commit link](https://github.com/vkleer/CI_PP1_TD/commit/562190a30f4584cb093bb9e1c2bfd956e3d28846) |
+| 404 page would not display any style | Change permalink from /404.html to 404.html due to my folder structure - [commit link](https://github.com/vkleer/CI_PP1_TD/commit/964332ac68d471fd66608cfc452a25efe17d8ce7) |
 
 ## Deployment
 
