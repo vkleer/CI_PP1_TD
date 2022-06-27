@@ -277,67 +277,67 @@ The site has been tested without any issues on the four browsers with the larges
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Greatest Hits | Navigate to the 'Greatest Hits' section | Be able to watch videos that I can pause, change volume and put on fullscreen | Works as expected |
-| Discover More Music | Navigate to 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Be able to listen to songs that I can pick, pause and change volume | Works as expected |
+| Discover More Music | Navigate to 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Be able to listen to songs that I can pick, pause and change volume | Works as intended |
 
 5. As a user, I want to easily find The Doors’ Spotify content
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Discover More Music | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Be able to find The Doors' Spotify page | Works as expected |
+| Discover More Music | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Be able to find The Doors' Spotify page | Works as intended |
 
 6. As a user, I want to learn about The Doors’ legacy
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Legacy | Navigate to the 'Legacy' section | Find information about The Doors' legacy | Works as expected |
+| Legacy | Navigate to the 'Legacy' section | Find information about The Doors' legacy | Works as intended |
 
 7. As a user, I want to know where The Doors recorded their music
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| The Doors Office and Recording Studio | Navigate to 'Contact' section and scroll down to 'The Doors Office and Recording Studio' sub-section | Find out where The Doors recorded their music | Works as expected |
+| The Doors Office and Recording Studio | Navigate to 'Contact' section and scroll down to 'The Doors Office and Recording Studio' sub-section | Find out where The Doors recorded their music | Works as intended |
 
 8. As a user, I want to be able to contact the site owner
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as expected |
+| Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
 
 9. As a user, I want to know The Doors social media accounts so I can follow them.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer | Navigate to the footer | Find social media links | Works as expected |
+| Footer | Navigate to the footer | Find social media links | Works as intended |
 
 10. As the site owner, I want the purpose of the site to be clear immediately
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Hero Image | Navigate to the 'Home' section | Find out what the site is about | Works as expected |
+| Hero Image | Navigate to the 'Home' section | Find out what the site is about | Works as intended |
 
 11. As the site owner, I want to provide a responsive website for all devices.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| The entire site | Open site on different devices | The site works on any device | Works as expected |
+| The entire site | Open site on different devices | The site works on any device | Works as intended |
 
 12. As the site owner, I want users to be able to contact me for questions or suggestions
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as expected |
+| Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
 
 13. As the site owner, I want users to be able to go to any section of the page easily, no matter where they are
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation Bar | Use the navigation bar | Be taken to the section I click on in the navigation bar | Works as expected |
+| Navigation Bar | Use the navigation bar | Be taken to the section I click on in the navigation bar | Works as intended |
 
 14. As the site owner, I want to embed API’s to enhance the user experience
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Spotify API | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Find an embedded API | Works as expected |
+| Spotify API | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Find an embedded API | Works as intended |
 | Google Maps API | Navigate to 'Contact' section and scroll down to 'The Doors Office and Recording Studio' sub-section | Find an embedded API | Works as expected |
 
 15. As the site owner, I want to encourage users to explore The Doors’ music
@@ -346,12 +346,34 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | Greatest Hits | Navigate to the 'Greatest Hits' section | Provide users with The Doors' greatest hits | Works as expected |
 | Discover More Music | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Provide users with more music to listen to + a link to their Spotify page | Works as expected |
-| Footer | Navigate to the footer | Provide users another link to The Door's Spotify page | Works as expected |
-
-
+| Footer | Navigate to the footer | Provide users another link to The Door's Spotify page | Works as intended |
 
 ## Bugs
 
 ## Deployment
+
+This site was deployed using Github Pages with the following steps:
+
+1. Go to your Github Repository
+2. Navigate to the 'Settings' page
+3. On the left hand menu under 'Code and automationo', click on 'Pages'
+4. Under 'Source', click on the 'Branch' dropdown element and set it to your main branch (in my case, this branch is called 'main')
+5. Click on 'Save'
+6. Refresh the page and you will be provided with a link to your deployed Github Page.
+
+If you want to fork this repository, follow these steps:
+
+1. Go to the Github repository (https://github.com/vkleer/CI_PP1_TD)
+2. Click on the 'Fork' button in the top right corner under the navigation bar
+
+If you want to clone this repository, follow these steps:
+
+1. Go to the Github repository (https://github.com/vkleer/CI_PP1_TD)
+2. Click on the 'Code' button above the list of files
+3. Select your preferred way of cloning, I recommend using the 'GitHub CLI' option
+4. Under 'GitHub CLI', click on the copy button to copy the clone command
+5. In you IDE, open Git Bash
+6. Navigate to the working directory where you want to clone this directory
+7. Paste in the clone command you copied and press the 'enter' key to create the clone
 
 ## Credits
