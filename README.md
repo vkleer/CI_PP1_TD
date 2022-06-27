@@ -403,3 +403,12 @@ If you want to clone this repository, follow these steps:
 [contact-image.jpg](assets/images/contact-image.jpg) by [Craig Baker](https://historicalmarkerproject.com/users/2713/craig-baker) from [The Historical Marker Database](https://www.hmdb.org/m.asp?m=183145)
 [the-doors-logo-white.png](assets/images/the-doors-logo-white.png) from [Wikipedia](https://commons.wikimedia.org/wiki/File:The_Doors_Logo.png) - I made the logo white using Adobe Photoshop
 [favicon.ico](assets/images/favicon.ico) by [Joel Brodsky](https://www.holdenluntz.com/artists/joel-brodsky/) from [Holden Luntz Gallery](https://www.holdenluntz.com/artists/joel-brodsky/jim-morrison/) - I copped the image using Adobe Photoshop and used [favicon.io](https://favicon.io/) to turn it into an .ico file
+
+### Code
+- The HTML and CSS for the responsive navigation bar was inspired (not copy and pasted) by [a Medium article](https://medium.com/@lizfaria/create-a-responsive-dropdown-menu-in-html-css-in-ten-steps-fdb4aa906978) from [Liz Faria](https://medium.com/@lizfaria)
+- The solution to my sticky navigation bar overlapping my in-page headers was found on [Stack Overflow](https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors) and posted by [Adrian Garner](https://stackoverflow.com/users/573373/adrian-garner)
+
+## Acknowledgements
+I would like to thank:
+- The Doors and all band members for inspiring me in many ways, including creating this website
+- My mentor Mo Shami for providing me with advice and guidance for this project
