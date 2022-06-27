@@ -562,15 +562,16 @@ If you want to clone this repository, follow these steps:
 - [alive-she-cried.jpg](assets/images/alive-she-cried.jpg) from [Wikipedia](https://en.wikipedia.org/wiki/Alive,_She_Cried#/media/File:TheDoorsAliveSheCriedalbumcover.jpg)
 - [doors-movie.jpg](assets/images/doors-movie.jpg) from [IMDB](https://www.imdb.com/title/tt0101761/)
 - [contact-image.jpg](assets/images/contact-image.jpg) by [Craig Baker](https://historicalmarkerproject.com/users/2713/craig-baker) from [The Historical Marker Database](https://www.hmdb.org/m.asp?m=183145)
-- [the-doors-logo-white.png](assets/images/the-doors-logo-white.png) from [Wikipedia](https://commons.wikimedia.org/wiki/File:The_Doors_Logo.png) - I made the logo white using Adobe Photoshop
-- [favicon.ico](assets/images/favicon.ico) by [Joel Brodsky](https://www.holdenluntz.com/artists/joel-brodsky/) from [Holden Luntz Gallery](https://www.holdenluntz.com/artists/joel-brodsky/jim-morrison/) - I copped the image using Adobe Photoshop and used [favicon.io](https://favicon.io/) to turn it into an .ico file
+- [contact-image-tablet.jpg](assets/images/contact-image-tablet.jpg) by [Craig Baker](https://historicalmarkerproject.com/users/2713/craig-baker) from [The Historical Marker Database](https://www.hmdb.org/m.asp?m=183145) - I increased the image height in Adobe Photoshop to better fit smaller screens
+- [the-doors-logo-white.png](assets/images/the-doors-logo-white.png) from [Wikipedia](https://commons.wikimedia.org/wiki/File:The_Doors_Logo.png) - I turned the logo white using Adobe Photoshop
+- [favicon.ico](assets/images/favicon.ico) by [Joel Brodsky](https://www.holdenluntz.com/artists/joel-brodsky/) from [Holden Luntz Gallery](https://www.holdenluntz.com/artists/joel-brodsky/jim-morrison/) - I cropped the image using Adobe Photoshop and used [favicon.io](https://favicon.io/) to turn it into an .ico file
 
 ### Text
 - The text that I used in the 'The Band' section comes from [The Doors' Wikipedia page](https://en.wikipedia.org/wiki/The_Doors)
 - The text that I used in the 'The Band Members' section comes from [The Official The Doors' site](https://thedoors.com/the-band)
 - The song descriptions on the 'Greatest Hits' section are snippets from their respective Wikipedia pages - [Light My Fire](https://en.wikipedia.org/wiki/Light_My_Fire), [Riders on the Storm](https://en.wikipedia.org/wiki/Riders_on_the_Storm) and [The End](https://en.wikipedia.org/wiki/The_End_(The_Doors_song))
 - The text that I used in the 'Legacy' section comes from a [Rolling Stones article](https://www.rollingstone.com/music/music-news/the-legacy-of-jim-morrison-and-the-doors-173068/) by [Mikal Gilmore](https://www.rollingstone.com/author/mikal-gilmore/)
-The event descriptions on the 'Legacy Events' section come from [The Doors' Wikipedia page](https://en.wikipedia.org/wiki/The_Doors#Legacy)
+- The event descriptions on the 'Legacy Events' section come from [The Doors' Wikipedia page](https://en.wikipedia.org/wiki/The_Doors#Legacy)
 
 ### Code
 - The HTML and CSS for the responsive navigation bar was inspired (not copy and pasted) by [a Medium article](https://medium.com/@lizfaria/create-a-responsive-dropdown-menu-in-html-css-in-ten-steps-fdb4aa906978) from [Liz Faria](https://medium.com/@lizfaria)
