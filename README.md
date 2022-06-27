@@ -433,7 +433,7 @@ The site has been tested without any issues on the four browsers with the larges
 | Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
 
 <details><summary>Supporting Screenshots - User Story 8</summary>
-<img src="docs/user-story-testing/user-story-8.jpg">
+<img src="docs/user-story-testing/user-story-8-and-12.jpg">
 </details>
 
 9. As a user, I want to know The Doors social media accounts so I can follow them.
@@ -473,7 +473,7 @@ The site has been tested without any issues on the four browsers with the larges
 | Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
 
 <details><summary>Supporting Screenshots - User Story 12</summary>
-<img src="docs/user-story-testing/user-story-12.jpg">
+<img src="docs/user-story-testing/user-story-8-and-12.jpg">
 </details>
 
 13. As the site owner, I want users to be able to go to any section of the page easily, no matter where they are
@@ -566,9 +566,11 @@ If you want to clone this repository, follow these steps:
 - [favicon.ico](assets/images/favicon.ico) by [Joel Brodsky](https://www.holdenluntz.com/artists/joel-brodsky/) from [Holden Luntz Gallery](https://www.holdenluntz.com/artists/joel-brodsky/jim-morrison/) - I copped the image using Adobe Photoshop and used [favicon.io](https://favicon.io/) to turn it into an .ico file
 
 ### Text
-- The text that I used in 'The Band' section comes from [The Doors' Wikipedia page](https://en.wikipedia.org/wiki/The_Doors)
-- The text that I used in 'The Band Members' section comes from [The Official The Doors' site](https://thedoors.com/the-band)
+- The text that I used in the 'The Band' section comes from [The Doors' Wikipedia page](https://en.wikipedia.org/wiki/The_Doors)
+- The text that I used in the 'The Band Members' section comes from [The Official The Doors' site](https://thedoors.com/the-band)
 - The song descriptions on the 'Greatest Hits' section are snippets from their respective Wikipedia pages - [Light My Fire](https://en.wikipedia.org/wiki/Light_My_Fire), [Riders on the Storm](https://en.wikipedia.org/wiki/Riders_on_the_Storm) and [The End](https://en.wikipedia.org/wiki/The_End_(The_Doors_song))
+- The text that I used in the 'Legacy' section comes from a [Rolling Stones article](https://www.rollingstone.com/music/music-news/the-legacy-of-jim-morrison-and-the-doors-173068/) by [Mikal Gilmore](https://www.rollingstone.com/author/mikal-gilmore/)
+The event descriptions on the 'Legacy Events' section come from [The Doors' Wikipedia page](https://en.wikipedia.org/wiki/The_Doors#Legacy)
 
 ### Code
 - The HTML and CSS for the responsive navigation bar was inspired (not copy and pasted) by [a Medium article](https://medium.com/@lizfaria/create-a-responsive-dropdown-menu-in-html-css-in-ten-steps-fdb4aa906978) from [Liz Faria](https://medium.com/@lizfaria)
