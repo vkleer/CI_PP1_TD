@@ -294,7 +294,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | The Band | Navigate to the 'The Band' section | Find information about the band | Works as expected |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 1</summary>
 <img src="docs/user-story-testing/user-story-1.jpg">
 </details>
 
@@ -304,7 +304,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | The Band Members | Navigate to 'The Band' section and scroll down to 'The Band Members' sub-section | Find information about the band members | Works as expected |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 2</summary>
 <img src="docs/user-story-testing/user-story-2.jpg">
 </details>
 
@@ -314,7 +314,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | Greatest Hits | Navigate to the 'Greatest Hits' section | Find information about The Doors' songs | Works as expected |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 3</summary>
 <img src="docs/user-story-testing/user-story-3.jpg">
 </details>
 
@@ -325,9 +325,8 @@ The site has been tested without any issues on the four browsers with the larges
 | Greatest Hits | Navigate to the 'Greatest Hits' section | Be able to watch videos that I can pause, change volume and put on fullscreen | Works as expected |
 | Discover More Music | Navigate to 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Be able to listen to songs that I can pick, pause and change volume | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 4</summary>
 <img src="docs/user-story-testing/user-story-4a.jpg">
-<br>
 <img src="docs/user-story-testing/user-story-4b.jpg">
 </details>
 
@@ -338,7 +337,7 @@ The site has been tested without any issues on the four browsers with the larges
 | Discover More Music | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Be able to find The Doors' Spotify page | Works as intended |
 | Footer | Navigate to the footer | Be able to find The Doors' Spotify page | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 5</summary>
 <img src="docs/user-story-testing/user-story-5.jpg">
 </details>
 
@@ -348,7 +347,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | Legacy | Navigate to the 'Legacy' section | Find information about The Doors' legacy | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 6</summary>
 <img src="docs/user-story-testing/user-story-6.jpg">
 </details>
 
@@ -358,7 +357,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | The Doors Office and Recording Studio | Navigate to 'Contact' section and scroll down to 'The Doors Office and Recording Studio' sub-section | Find out where The Doors recorded their music | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 7</summary>
 <img src="docs/user-story-testing/user-story-7.jpg">
 </details>
 
@@ -368,7 +367,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 8</summary>
 <img src="docs/user-story-testing/user-story-8.jpg">
 </details>
 
@@ -378,7 +377,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | Footer | Navigate to the footer | Find social media links | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 9</summary>
 <img src="docs/user-story-testing/user-story-9.jpg">
 </details>
 
@@ -388,7 +387,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | Hero Image | Navigate to the 'Home' section | Find out what the site is about | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 10</summary>
 <img src="docs/user-story-testing/user-story-10.jpg">
 </details>
 
@@ -398,7 +397,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | The entire site | Open site on different devices | The site works on any device | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 11</summary>
 <img src="docs/user-story-testing/user-story-11.jpg">
 </details>
 
@@ -408,7 +407,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 12</summary>
 <img src="docs/user-story-testing/user-story-12.jpg">
 </details>
 
@@ -418,7 +417,7 @@ The site has been tested without any issues on the four browsers with the larges
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | Use the navigation bar | Be taken to the section I click on in the navigation bar | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 13</summary>
 <img src="docs/user-story-testing/user-story-13.jpg">
 </details>
 
@@ -429,7 +428,7 @@ The site has been tested without any issues on the four browsers with the larges
 | Spotify API | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Find an embedded API | Works as intended |
 | Google Maps API | Navigate to 'Contact' section and scroll down to 'The Doors Office and Recording Studio' sub-section | Find an embedded API | Works as expected |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 14</summary>
 <img src="docs/user-story-testing/user-story-14a.jpg">
 <img src="docs/user-story-testing/user-story-14b.jpg">
 </details>
@@ -442,7 +441,7 @@ The site has been tested without any issues on the four browsers with the larges
 | Discover More Music | Navigate to the 'Greatest Hits' section and scroll down to 'Discover More Music' sub-section | Provide users with more music to listen to + a link to their Spotify page | Works as expected |
 | Footer | Navigate to the footer | Provide users another link to The Door's Spotify page | Works as intended |
 
-<details><summary>Supporting Screenshots</summary>
+<details><summary>Supporting Screenshots - User Story 15</summary>
 <img src="docs/user-story-testing/user-story-15.jpg">
 </details>
 
