@@ -299,38 +299,39 @@ The site has a total of five sections and 13 features.
 ### HTML Validation
 The HTML of the site has been validated using W3C's Markup Validation Service. Both of the pages pass with no errors or warnings.
 
-<details><summary>Home</summary>
-
+<details><summary>Screenshot of index page HTML validation</summary>
+    <img src="docs/validation/index-validation.jpg">
 </details>
-<details><summary>404</summary>
-
+<details><summary>Screenshot of 404 page HTML validation</summary>
+    <img src="docs/validation/404-validation.jpg">
 </details>
 
 ### CSS Validation
 The CSS of the site has been validatus using W3C's CSS Validation Service. It passed with no errors or warnings.
 
-<details><summary>CSS</summary>
-
+<details><summary>Screenshot of CSS validation</summary>
+    <img src="docs/validation/css-validation.jpg">
 </details>
 
 ### Accessibility
 The accessibility of the site has been measured using the Wave WebAIM web accessibility evaluation tool. Both of the pages pass with no errors.
 
-<details><summary>Home</summary>
-
+<details><summary>Screenshot of index page accessibility evaluation</summary>
+    <img src="docs/validation/index-wave.jpg">
 </details>
-<details><summary>404</summary>
-
+<details><summary>Screenshot of 404 page accessibility evaluation</summary>
+    <img src="docs/validation/404-wave.jpg">
 </details>
 
 ### Performance
 The performance of the site has been measured with Google Lighthouse. 
 
-<details><summary>Home</summary>
-For my index page, the 'Best Practices' score of 92 can unfortunately not be increased - the Youtube videos I embedded on my site have a SameSite error, which is a problem on Youtube's end.
+<details><summary>Screenshot of index page accessibility evaluation</summary>
+For my index page, the 'Best Practices' score of 92 can unfortunately not be increased - the Youtube videos I embedded on my site have a SameSite error, which has to be fixed on Youtube's end.
+    <img src="docs/validation/index-lighthouse.jpg">
 </details>
-<details><summary>404</summary>
-The 404 page passes with a perfect score.
+<details><summary>Screenshot of 404 page accessibility evaluation</summary>
+    <img src="docs/validation/404-lighthouse.jpg">
 </details>
 
 ### Testing on Different Devices
