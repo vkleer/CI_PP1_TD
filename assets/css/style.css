@@ -30,6 +30,7 @@ h2 {
     margin: 15px;
 }
 
+/* Make navigation bar sticky */
 #menu-wrapper {
     background-color: rgb(20, 20, 20);
     height: 70px;
@@ -39,7 +40,7 @@ h2 {
     z-index: 1;
 }
 
-/* Hamburger menu for mobile */
+/* Set 'hamburger' menu location for mobile */
 label[for="toggle"] {
     position: fixed;
     top: 25px;
@@ -71,9 +72,8 @@ label[for="toggle"] {
     background-color: #fff;
     color: rgb(20, 20, 20);
 }
-/* End Nagivation */
 
-/* Classes for all sections */
+/* Reusable classes for all sections */
 .section-content {
     padding: 40px 60px;
     font-size: 120%;
@@ -96,14 +96,16 @@ label[for="toggle"] {
     padding: 10px 0;
 }
 
+/* Creates a parallax effect */
 .parallax-image {
     background-size: cover;
     background-attachment: fixed;
     height: 350px;
 }
-/* End classes all sections */
 
 /* The Band section */
+
+/* Sets the hero image */
 #hero-image {
     background: url('../images/hero-image.webp') no-repeat center center;
     background-color: rgb(20, 20, 20);
@@ -151,9 +153,10 @@ label[for="toggle"] {
 #jim-morrison {
     padding-top: 0;
 }
-/* End The Band section */
 
 /* Greatest Hits section */
+
+/* Sets the divider image above Greatest Hits section */
 #greatest-hits-image {
     background-image: url('../images/greatest-hits-image.jpg');
     background-color: rgb(20, 20, 20);
@@ -182,9 +185,10 @@ label[for="toggle"] {
     width: 100%;
     border-radius: 12px;
 }
-/* End Greatest Hits section */
 
 /* Legacy section */
+
+/* Sets the divider image above Legacy section */
 #legacy-image {
     background-image: url('../images/legacy-image.jpg');
     background-color: rgb(20, 20, 20);
@@ -212,9 +216,10 @@ label[for="toggle"] {
     padding-top: 20px;
     margin: 0 20px 20px 0;
 }
-/* End legacy section */
 
 /* Contact section */
+
+/* Sets the divider image above Contact section */
 #contact-image {
     background-image: url('../images/contact-image.jpg');
     background-color: rgb(20, 20, 20);
@@ -279,18 +284,12 @@ form {
     color: rgb(20, 20, 20);
 }
 
-#workshop-image {
-    background-image: url('../images/the-doors-workshop.jpg');
-    background-color: rgb(20, 20, 20);
-}
-
 #google-maps {
     border: 0;
     width: 100%;
     height: 350px;
     vertical-align: top
 }
-/* End Contact section */
 
 /* Footer */
 footer {
@@ -320,7 +319,6 @@ footer {
 .social-media a {
     text-decoration: none;
 }
-/* End Footer */
 
 /* 404 Error section */
 #error {
@@ -346,10 +344,10 @@ footer {
     color: rgb(20, 20, 20);
 }
 
-/* For tablet sized screens */
+/* Media query for tablet sized screens */
 @media screen and (max-width: 1200px) {
 
-    /* Change images */
+    /* Change Hero and Legacy images to fit smaller screens */
     #hero-image {
         background-image: url('../images/hero-image-tablet.jpg');
     }
@@ -369,21 +367,21 @@ footer {
         margin-bottom: 20px;
     }
 
-    /* Change social media padding */
+    /* Adjust social media padding to stop overflow */
     .social-media > li {
         padding: 20px;
     }
 }
 
- /* For phone sized screens */
+ /* Media query for phone sized screens */
 @media screen and (max-width: 850px) {
 
-    /* Change padding for all sections */
+    /* Change padding for all sections to better fit smaller screen size */
     .section-content {
         padding: 40px 20px;
     }
 
-    /* Change image */
+    /* Change Hero image */
     #hero-image {
         background-image: url('../images/hero-image-mobile.jpg');
         background-size: cover;
@@ -392,7 +390,7 @@ footer {
         font-size: 2rem;
     }
 
-    /* Change Navigation */
+    /* Change navigation to 'hamburger' style menu */
     .nav-responsive {
         display: none;
     }
@@ -437,7 +435,11 @@ footer {
         float: none;
     }
 
-    /* Change Contact layout */
+    /* Change Contact image and layout */
+    #contact-image {
+        background-image: url('../images/contact-image-tablet.jpg');
+    }
+
     .form-name {
         display: block;
         width: 100%;
@@ -447,8 +449,21 @@ footer {
     }
 }
 
-@media screen and (max-width: 320px) {
+/* Breakpoint for social media icons */
+@media screen and (max-width: 335px) {
+    /* Adjust padding to stop overflow */
+    .social-media > li {
+        padding: 10px;
+    }
+}
 
+@media screen and (max-width: 320px) {
+    /* Disable parallax images to allow images to be fully displayed */
+    #hero-image, #greatest-hits-image, #legacy-image, #contact-image {
+        background-repeat: no-repeat;
+        background-attachment: initial;
+    }
+    /* Adjust padding to better fit small screen */
     .section-content {
         padding: 40px 20px;
     }
@@ -457,9 +472,5 @@ footer {
     }
     #menu > li a {
         height: 40px;
-    }
-
-    .social-media > li {
-        padding: 10px;
     }
 }
