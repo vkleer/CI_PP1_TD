@@ -9,7 +9,7 @@
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
-    2. [Site Owner Goals](#site-owner-goals)
+    2. [Website Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
     2. [User Requirements and Expectations](#user-requirements-and-expectations)
@@ -58,11 +58,11 @@
 - Watch videos from The Doors
 - Listen to music from The Doors
 
-### Site Owner Goals
+### Website Owner Goals
 - Provide essential information about The Doors
 - Promote The Doors’ music
 - Provide an intuitive and responsive experience
-- Provide users with a means of contacting site owner
+- Provide users with a means of contacting website owner
 
 ## User Experience
 
@@ -75,7 +75,7 @@
 - Structured website with clear sections
 - Finding relevant information quickly
 - Visually appealing and responsive website, no matter the device
-- A way to contact the site owner
+- A way to contact the website owner
 - Accessibility and readability
 
 ### User Stories
@@ -88,21 +88,21 @@
 5. As a user, I want to easily find The Doors’ Spotify content
 6. As a user, I want to learn about The Doors’ legacy
 7. As a user, I want to know where The Doors recorded their music
-8. As a user, I want to be able to contact the site owner
+8. As a user, I want to be able to contact the website owner
 9. As a user, I want to know The Doors social media accounts so I can follow them.
 
-#### Site owner
-10. As the site owner, I want the purpose of the site to be clear immediately
-11. As the site owner, I want to provide a responsive website for all devices.
-12. As the site owner, I want users to be able to contact me for questions or suggestions
-13. As the site owner, I want users to be able to go to any section of the page easily, no matter where they are
-14. As the site owner, I want to embed API’s to enhance the user experience
-15. As the site owner, I want to encourage users to explore The Doors’ music
+#### Website owner
+10. As the website owner, I want the purpose of the website to be clear immediately
+11. As the website owner, I want to provide a responsive website for all devices.
+12. As the website owner, I want users to be able to contact me for questions or suggestions
+13. As the website owner, I want users to be able to go to any section of the page easily, no matter where they are
+14. As the website owner, I want to embed API’s to enhance the user experience
+15. As the website owner, I want to encourage users to explore The Doors’ music
 
 ## Design
 
 ### Design Choices
-The site was designed to make learning about The Doors fun. A history site can easily become boring with walls of text - which is why I condensed all the core information and used a lot of imagery to go with the text. I made it a one-pager to make the site a journey, encouraging users to keep scrolling and learn more.
+The website was designed to make learning about The Doors fun. A history website can easily become boring with walls of text - which is why I condensed all the core information and used a lot of imagery to go with the text. I made it a one-pager to make the website a journey, encouraging users to keep scrolling and learn more.
 
 ### Colour
 The Doors are a band from the 60's and a majority of their visual content is in black and white, which is why I decided to use a grayscale theme. If a section requires a sub-section, I give them contrasting background colours - the main section gets a white background and the sub-section gets a black background.
@@ -118,14 +118,14 @@ To compliment the simplicity of the design I used only one font, with different 
 </details>
 
 ### Structure
-The site is structured in an intuitive way, using common web design conventions. The navigation bar is sticky with a logo on the left and the links to the right. Since it's a one-pager, it's important to have the navigation visible at all times. Headings are used hierarchically within their respective sections.
+The website is structured in an intuitive way, using common web design conventions. The navigation bar is sticky with a logo on the left and the links to the right. Since it's a one-pager, it's important to have the navigation visible at all times. Headings are used hierarchically within their respective sections.
 <br>
 <br>
 The content is split up into clear sections, divided by a parralax image to keep the design interesting. Each section is built with a different layout containing several elements.
 <br>
 <br>
-The site consists of five main sections with four sub-sections:
-- The 'Home' section, introducing users to the site with a hero image and headline, telling users what the site is about
+The website consists of five main sections with four sub-sections:
+- The 'Home' section, introducing users to the website with a hero image and headline, telling users what the website is about
 - The 'The Band' section, covering The origin story
 - The 'The Band Members' sub-section, containing a small biography for each band member
 - The 'Greatest Hits' section, containing their greatest hits along with a short description
@@ -168,7 +168,7 @@ The site consists of five main sections with four sub-sections:
 - https://favicon.io/
 
 ## Features
-The site has a total of five sections and 13 features.
+The website has a total of five sections and 13 features.
 
 ### Logo and Navigation bar
 - The official The Doors logo is used and placed on the left as is conventional
@@ -183,7 +183,7 @@ The site has a total of five sections and 13 features.
 ### Hero Image
 - Shows a picture of the band to introduce them to users
 - Picture changes depending on screen size, making sure all band members fit in on any screen size
-- Features the following text on top of the image to clearly state the purpose of the site: "A tribute page to the legendary band: The Doors"
+- Features the following text on top of the image to clearly state the purpose of the website: "A tribute page to the legendary band: The Doors"
 - Covers user story **10**
 
 <details><summary>Screenshot of Hero Image</summary>
@@ -191,7 +191,7 @@ The site has a total of five sections and 13 features.
 </details>
 
 ### Parallax Images
-- To divide the different sections on the site, multiple background images have been used to keep the design interesting
+- To divide the different sections on the website, multiple background images have been used to keep the design interesting
 - The images move at a different speed than the rest of the content when scrolling, creating an aesthetically pleasing effect
 - The hero image is also a parallax image
 
@@ -261,7 +261,7 @@ The site has a total of five sections and 13 features.
 </details>
 
 ### Contact
-- Provides users with a way to contact the site owner
+- Provides users with a way to contact the website owner
 - Covers user story **8** and **12**
 
 <details><summary>Screenshot of Contact</summary>
@@ -298,7 +298,7 @@ The site has a total of five sections and 13 features.
 ## Testing
 
 ### HTML Validation
-The HTML of the site has been validated using W3C's Markup Validation Service. Both of the pages pass with no errors or warnings.
+The HTML of the website has been validated using W3C's Markup Validation Service. Both of the pages pass with no errors or warnings.
 
 <details><summary>Screenshot of index page HTML validation</summary>
     <img src="docs/validation/index-html-validation.jpg">
@@ -308,14 +308,14 @@ The HTML of the site has been validated using W3C's Markup Validation Service. B
 </details>
 
 ### CSS Validation
-The CSS of the site has been validatus using W3C's CSS Validation Service. It passed with no errors or warnings.
+The CSS of the website has been validatus using W3C's CSS Validation Service. It passed with no errors or warnings.
 
 <details><summary>Screenshot of CSS validation</summary>
     <img src="docs/validation/css-validation.jpg">
 </details>
 
 ### Accessibility
-The accessibility of the site has been measured using the Wave WebAIM web accessibility evaluation tool. Both of the pages pass with no errors.
+The accessibility of the website has been measured using the Wave WebAIM web accessibility evaluation tool. Both of the pages pass with no errors.
 
 <details><summary>Screenshot of index page accessibility evaluation</summary>
     <img src="docs/validation/index-wave.jpg">
@@ -325,10 +325,10 @@ The accessibility of the site has been measured using the Wave WebAIM web access
 </details>
 
 ### Performance
-The performance of the site has been measured with Google Lighthouse. 
+The performance of the website has been measured with Google Lighthouse. 
 
 <details><summary>Screenshot of index page accessibility evaluation</summary>
-For my index page, the 'Best Practices' score of 92 can unfortunately not be increased - the Youtube videos I embedded on my site have a SameSite error, which has to be fixed on Youtube's end.
+For my index page, the 'Best Practices' score of 92 can unfortunately not be increased - the Youtube videos I embedded on my website have a SameSite error, which has to be fixed on Youtube's end.
     <img src="docs/validation/index-lighthouse.jpg">
 </details>
 <details><summary>Screenshot of 404 page accessibility evaluation</summary>
@@ -336,7 +336,7 @@ For my index page, the 'Best Practices' score of 92 can unfortunately not be inc
 </details>
 
 ### Testing on Different Devices
-The site has been tested on multiple physical devices without any issues:
+The website has been tested on multiple physical devices without any issues:
 
 - Desktop PC
 - MacBook Pro 15"
@@ -344,10 +344,10 @@ The site has been tested on multiple physical devices without any issues:
 - Samsung Galaxy S10
 - Samsung Galaxy Note 10+
 
-In addition to the physical devices, the site has also been tested without any issues by toggling all the different device options in Google Chrome's Developer Tools under the Device Toggling section.
+In addition to the physical devices, the website has also been tested without any issues by toggling all the different device options in Google Chrome's Developer Tools under the Device Toggling section.
 
 ### Browser Compatibility
-The site has been tested without any issues on the four browsers with the largest userbase (as reported on https://gs.statcounter.com/browser-market-share):
+The website has been tested without any issues on the four browsers with the largest userbase (as reported on https://gs.statcounter.com/browser-market-share):
 - Google Chrome
 - Safari
 - Microsoft Edge
@@ -427,11 +427,11 @@ The site has been tested without any issues on the four browsers with the larges
 <img src="docs/user-story-testing/user-story-7.jpg">
 </details>
 
-8. As a user, I want to be able to contact the site owner
+8. As a user, I want to be able to contact the website owner
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
+| Contact | Navigate to the 'Contact' section | Be able to send a message to the website owner | Works as intended |
 
 <details><summary>Supporting Screenshots - User Story 8</summary>
 <img src="docs/user-story-testing/user-story-8-and-12.jpg">
@@ -447,37 +447,37 @@ The site has been tested without any issues on the four browsers with the larges
 <img src="docs/user-story-testing/user-story-9.jpg">
 </details>
 
-10. As the site owner, I want the purpose of the site to be clear immediately
+10. As the website owner, I want the purpose of the website to be clear immediately
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Hero Image | Navigate to the 'Home' section | Find out what the site is about | Works as intended |
+| Hero Image | Navigate to the 'Home' section | Find out what the website is about | Works as intended |
 
 <details><summary>Supporting Screenshots - User Story 10</summary>
 <img src="docs/user-story-testing/user-story-10.jpg">
 </details>
 
-11. As the site owner, I want to provide a responsive website for all devices.
+11. As the website owner, I want to provide a responsive website for all devices.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| The entire site | Open site on different devices | The site works on any device | Works as intended |
+| The entire website | Open website on different devices | The website works on any device | Works as intended |
 
 <details><summary>Supporting Screenshots - User Story 11</summary>
 <img src="docs/user-story-testing/user-story-11.jpg">
 </details>
 
-12. As the site owner, I want users to be able to contact me for questions or suggestions
+12. As the website owner, I want users to be able to contact me for questions or suggestions
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact | Navigate to the 'Contact' section | Be able to send a message to the site owner | Works as intended |
+| Contact | Navigate to the 'Contact' section | Be able to send a message to the website owner | Works as intended |
 
 <details><summary>Supporting Screenshots - User Story 12</summary>
 <img src="docs/user-story-testing/user-story-8-and-12.jpg">
 </details>
 
-13. As the site owner, I want users to be able to go to any section of the page easily, no matter where they are
+13. As the website owner, I want users to be able to go to any section of the page easily, no matter where they are
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -487,7 +487,7 @@ The site has been tested without any issues on the four browsers with the larges
 <img src="docs/user-story-testing/user-story-13.jpg">
 </details>
 
-14. As the site owner, I want to embed API’s to enhance the user experience
+14. As the website owner, I want to embed API’s to enhance the user experience
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -499,7 +499,7 @@ The site has been tested without any issues on the four browsers with the larges
 <img src="docs/user-story-testing/user-story-14b.jpg">
 </details>
 
-15. As the site owner, I want to encourage users to explore The Doors’ music
+15. As the website owner, I want to encourage users to explore The Doors’ music
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -516,13 +516,13 @@ The site has been tested without any issues on the four browsers with the larges
 | **Bug** | **Fix** |
 |-------------|------------|
 | Sticky navigation bar overlaps in-page anchors when using navigation menu  | Add scroll-padding-top property and set value equal to navigation bar height - [commit link](https://github.com/vkleer/CI_PP1_TD/commit/6be27546209a56bb85cee5504f16fdaca53e3b3b) |
-| On smaller screens the site would show a horizontal scroll bar with empty content being displayed on the right | Add overflow-x property and set value to hidden - [commit link](https://github.com/vkleer/CI_PP1_TD/commit/c1b5ba906ef1153820b5eb003092dde235bac0f3) |
+| On smaller screens the website would show a horizontal scroll bar with empty content being displayed on the right | Add overflow-x property and set value to hidden - [commit link](https://github.com/vkleer/CI_PP1_TD/commit/c1b5ba906ef1153820b5eb003092dde235bac0f3) |
 | Footer was not on the bottom of the 404 page due to lack of content | Add position property and set the value to absolute, then add bottom property and set the value to 0 - [commit link](https://github.com/vkleer/CI_PP1_TD/commit/562190a30f4584cb093bb9e1c2bfd956e3d28846) |
 | 404 page would not display any style | Change permalink from /404.html to 404.html due to my folder structure - [commit link](https://github.com/vkleer/CI_PP1_TD/commit/964332ac68d471fd66608cfc452a25efe17d8ce7) |
 
 ## Deployment
 
-This site was deployed using Github Pages with the following steps:
+This website was deployed using Github Pages with the following steps:
 
 1. Go to your Github Repository
 2. Navigate to the 'Settings' page
@@ -570,7 +570,7 @@ Images that are not referenced below are created or owned by the developer.
 
 ### Text
 - The text that I used in the 'The Band' section comes from [The Doors' Wikipedia page](https://en.wikipedia.org/wiki/The_Doors)
-- The text that I used in the 'The Band Members' section comes from [The Official The Doors' site](https://thedoors.com/the-band)
+- The text that I used in the 'The Band Members' section comes from [The Official The Doors' website](https://thedoors.com/the-band)
 - The song descriptions on the 'Greatest Hits' section are snippets from their respective Wikipedia pages - [Light My Fire](https://en.wikipedia.org/wiki/Light_My_Fire), [Riders on the Storm](https://en.wikipedia.org/wiki/Riders_on_the_Storm) and [The End](https://en.wikipedia.org/wiki/The_End_(The_Doors_song))
 - The text that I used in the 'Legacy' section comes from a [Rolling Stones article](https://www.rollingstone.com/music/music-news/the-legacy-of-jim-morrison-and-the-doors-173068/) by [Mikal Gilmore](https://www.rollingstone.com/author/mikal-gilmore/)
 - The event descriptions on the 'Legacy Events' section come from [The Doors' Wikipedia page](https://en.wikipedia.org/wiki/The_Doors#Legacy)
@@ -583,3 +583,5 @@ Images that are not referenced below are created or owned by the developer.
 I would like to thank:
 - The Doors and all individual band members for inspiring me in many ways, including creating this website
 - My mentor Mo Shami for providing me with advice and guidance for this project
+
+
