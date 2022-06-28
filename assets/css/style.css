@@ -316,6 +316,9 @@ footer {
 .social-media i {
     color: rgb(255, 255, 255);
 }
+.social-media i:hover {
+    color: rgb(155, 155, 155);
+}
 .social-media a {
     text-decoration: none;
 }
