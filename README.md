@@ -164,8 +164,8 @@ The website consists of five main sections with four sub-sections:
 - Adobe Photoshop
 - Adobe Illustrator
 - Font Awesome
-- https://grayscale.imageonline.co/
-- https://favicon.io/
+- [Favicon.io](https://favicon.io/)
+- [ImageOnline Grayscale Tool](https://grayscale.imageonline.co/)
 
 ## Features
 The website has a total of five sections and 13 features.
@@ -515,9 +515,10 @@ The website has been tested without any issues on the four browsers with the lar
 
 | **Bug** | **Fix** |
 |-------------|------------|
-| Sticky navigation bar overlaps in-page anchors when using navigation menu  | Add scroll-padding-top property and set value equal to navigation bar height - [link to commit](https://github.com/vkleer/CI_PP1_TD/commit/6be27546209a56bb85cee5504f16fdaca53e3b3b) |
-| On smaller screens the website would show a horizontal scroll bar with empty content being displayed on the right | Add overflow-x property and set value to hidden - [link to commit](https://github.com/vkleer/CI_PP1_TD/commit/c1b5ba906ef1153820b5eb003092dde235bac0f3) |
-| Footer was not on the bottom of the 404 page due to lack of content | Add position property and set the value to absolute, then add bottom property and set the value to 0 - [link to commit](https://github.com/vkleer/CI_PP1_TD/commit/562190a30f4584cb093bb9e1c2bfd956e3d28846) |
+| Sticky navigation bar overlaps in-page anchors when using navigation menu  | Add scroll-padding-top property to * and set value equal to navigation bar height - [link to commit](https://github.com/vkleer/CI_PP1_TD/commit/6be27546209a56bb85cee5504f16fdaca53e3b3b) |
+| On smaller screens the website would show a horizontal scroll bar with empty content being displayed on the right | Add overflow-x property to body element and set value to hidden - [link to commit](https://github.com/vkleer/CI_PP1_TD/commit/c1b5ba906ef1153820b5eb003092dde235bac0f3) |
+| On mobile devices, the website would still show a horizontal bar despite the overflow-x property set on the body element | Wrap all the body content in a div (#site-wrapper) and add overflow-x property with a value of hidden to this element instead of the body element - [link to commit](https://github.com/vkleer/CI_PP1_TD/commit/323a24e317c4916ca0992ab7a7eedcd64ffdf2aa) |
+| Footer was not on the bottom of the 404 page due to lack of content | Add position property to the footer element and set the value to absolute, then add bottom property and set the value to 0, but only to the footer element in the 404 page (hence the #footer selector) - [link to commit](https://github.com/vkleer/CI_PP1_TD/commit/562190a30f4584cb093bb9e1c2bfd956e3d28846) |
 | 404 page would not display any style | Change permalink from /404.html to 404.html due to my folder structure - [link to commit](https://github.com/vkleer/CI_PP1_TD/commit/964332ac68d471fd66608cfc452a25efe17d8ce7) |
 
 ## Deployment
